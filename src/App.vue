@@ -12,7 +12,7 @@ import ImageSlider from "@/components/ImageSlider.vue";
 
         </Header>
       </el-header>
-      <el-main class="">
+      <el-main>
         <HomePage>
 
         </HomePage>

@@ -118,7 +118,7 @@ export default {
 .container_homepage {
   //position: fixed;
   background-color: #7a1616;
-  width: 100%;
+  width: inherit;
   //height: 100vh; /* 设置容器的高度，可以根据需要调整 */
   //line-height: 100vh; /* 垂直居中 */
 }
