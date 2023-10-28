@@ -5,8 +5,8 @@ import HomePage from "@/components/HomePage.vue";
 
 <template>
   <div class="common-layout">
-    <el-container>
-      <el-header class="top-widget" >
+    <el-container  style="width: 100%">
+      <el-header class="top-widget" style="width: 100%" >
         <Header>
 
         </Header>
@@ -26,5 +26,15 @@ import HomePage from "@/components/HomePage.vue";
   background-color: #fff;
   color: #333;
   /* 其他样式属性 */
+}
+.body{
+  padding: 0;
+}
+.el-header{
+  padding: 0;
+  margin: 0;
+}
+*{
+  padding-left: 10px;
 }
 </style>

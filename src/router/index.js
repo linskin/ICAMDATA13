@@ -7,7 +7,9 @@ const routes =[
         component:()=>import('../App.vue'),
         redirect:"/home",
         children:[
-            {path:'home',component:()=>import('../')}
+            {path:'home',component:()=>import('../view/HOME.vue')},
+            {path:'register',component:()=>import('../view/register.vue')},
+            {path:'DataTime',component:()=>import('../view/DataTime.vue')}
         ]
     }
 ]

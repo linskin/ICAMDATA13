@@ -1,6 +1,6 @@
 <script setup>
   export default {
-    name:"HOME"
+    name:"register"
   }
 </script>
 

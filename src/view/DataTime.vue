@@ -1,7 +1,8 @@
-<script setup>
+<script >
   export default {
-    name:"HOME"
+    name:"DataTime"
   }
+
 </script>
 
 <template>
