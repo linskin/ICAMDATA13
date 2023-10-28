@@ -1,6 +1,7 @@
 <script setup>
 import Header from "@/components/Header.vue";
 import HomePage from "@/components/HomePage.vue";
+import ImageSlider from "@/components/ImageSlider.vue";
 </script>
 
 <template>
@@ -11,7 +12,13 @@ import HomePage from "@/components/HomePage.vue";
 
         </Header>
       </el-header>
-      <el-main style="margin-top: 490px"><HomePage/></el-main>
+      <el-main>
+        <HomePage>
+
+        </HomePage>
+      </el-main>
+<!--      <el-main style="margin-top: 490px"><ImageSlider/></el-main>-->
+      <el-footer>Footer</el-footer>
     </el-container>
   </div>
 </template>
@@ -21,7 +28,7 @@ import HomePage from "@/components/HomePage.vue";
 <style>
 
 .top-widget {
-  position: fixed;
+  //position: fixed;
   top: 0;
   left: 0;
   width:100%;
@@ -31,7 +38,10 @@ import HomePage from "@/components/HomePage.vue";
   /* 其他样式属性 */
 }
 .body{
-  padding: 0;
+  //position: fixed;
+  //flex: 100%;
+  left: 0;
+  width: 100%;
 }
 .el-header{
   padding: 0;

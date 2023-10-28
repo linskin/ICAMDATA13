@@ -1,8 +1,11 @@
-<template >
-  <div style="min-width: 1300px;background-color: antiquewhite;" class="centered-text" >
 
-    <img src="src/assets/photo.png"  alt="这是一个图片">
-  <div style="position:absolute; top:400px; left:50px; max-width:40%;/*悬浮table*/background-color:#ffffff; text-align: justify;padding:20px 20px 20px; font-size:80%; z-index: 2;opacity:0.7; animation:caption 1s;-webkit-animation:caption 1s;">
+<template >
+<!--  <ImageSlider/>-->
+  <div class="container_" >
+    <ImageSlider/>
+<!--    <img src="src/assets/photo.png"  alt="这是一个图片">-->
+<!--    <image-slider></image-slider>-->
+    <div class="con_little_table">
     credits<br>
     <table><tbody>
     <tr><td><i>new</i> Harbour </td><td align="right"> (Vincenzo Lombardo) </td></tr>
@@ -13,7 +16,7 @@
   </div>
 
 <!--文本-->
-  <div style="position:relative; text-align: justify; top:10px;background-color:#ffffff; font-size: 100%; font-style: normal">
+  <div class="mytext">
 
     <table width="90%">
       <tbody>
@@ -58,7 +61,15 @@
           <br><br>
           The scientific programme will include invited and contributed talks in the regular sessions, a poster session and special sessions devoted to uncertainty quantification and database demonstrations.
           <br><br>
-          13th ICAMDATA, hosted by the NWNU, constituted in Comitato Organizzatore di ICAMDATA 2020&star;, in the beautiful scenario of the <a href="https://www.comune.moladibari.ba.it/" target="_blank">Mola di Bari town</a>, is organized in cooperation with the <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA)</a>, with the patronage of the <a href="https://www.istp.cnr.it/" target="_blank">Institute for Plasma Science and Technology (ISTP)</a>, of the <a href="http://www.en.poliba.it/" target="_blank">Polytechnic of Bari</a> and of the <a href="https://www.comune.moladibari.ba.it/" target="_blank">Municipality of Mola di Bari</a>, and the event is sponsored by <a href="https://www.cfa.harvard.edu/sao" target="_blank">Smithsonian Astrophysical Observatory (SAO)</a> and the  <a href="https://www.mdpi.com/journal/entropy" target="_blank">MDPI Journal <i>Entropy</i></a>.
+          13th ICAMDATA, hosted by the NWNU, constituted in Comitato Organizzatore di ICAMDATA 2020&star;, in the beautiful scenario of the
+          <a href="https://www.comune.moladibari.ba.it/" target="_blank">Mola di Bari town</a>
+          , is organized in cooperation with the
+          <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA)</a>
+          , with the patronage of the <a href="https://www.istp.cnr.it/" target="_blank">Institute for Plasma Science and Technology (ISTP)</a>
+          , of the <a href="http://www.en.poliba.it/" target="_blank">Polytechnic of Bari</a>
+          and of the <a href="https://www.comune.moladibari.ba.it/" target="_blank">Municipality of Mola di Bari</a>
+          , and the event is sponsored by <a href="https://www.cfa.harvard.edu/sao" target="_blank">Smithsonian Astrophysical Observatory (SAO)</a>
+          and the  <a href="https://www.mdpi.com/journal/entropy" target="_blank">MDPI Journal <i>Entropy</i></a>.
           <br><br><br>
           <hr>
           &star; Comitato Organizzatore di ICAMDATA 2023 (Via E Orabona 4 – Bari 70126 CF: 93503700721) is a non-profit organization whose only scope is to organize the 13th ICAMDATA
@@ -74,18 +85,64 @@
 
 </template>
 
-<script>
+
+<script >
+// import ImageSlider from './ImageSlider.vue';
+// import { Swiper, SwiperSlide } from 'swiper/vue';
+import ImageSlider from "@/components/ImageSlider.vue";
+// Import Swiper styles
+import 'swiper/css';
+
 export default {
   name: "HomePAge",
-}
+  components: {
+    ImageSlider
+  },
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log('slide change');
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+    };
+  },
+};
 </script>
 
 <style scoped>
 /* 你可以在这里添加组件的样式 */
 .centered-text {
-  text-align: center; /* 水平居中 */
+  //position: fixed;
+  background-color: #7a1616;
+  width: 100%;
   //height: 100vh; /* 设置容器的高度，可以根据需要调整 */
   //line-height: 100vh; /* 垂直居中 */
+}
+.mytext{
+  position:relative;
+  text-align: justify;
+  top:10px;background-color:#ffffff;
+  font-size: 100%;
+  font-style: normal
+}
+.mytable{
+  position:absolute;
+  top:400px;
+  left:50px;
+  max-width:40%;
+  /*悬浮table*/
+  background-color:#ffffff;
+  text-align: justify;
+  padding:20px 20px 20px;
+  font-size:80%;
+  z-index: 2;
+  opacity:0.7;
+  animation:caption 1s;
+  -webkit-animation:caption 1s
 }
 </style>
 <!-- 在你的Vue组件文件中，比如 MyComponent.vue -->
