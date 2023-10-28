@@ -6,7 +6,7 @@ import HomePage from "@/components/HomePage.vue";
 <template>
   <div class="common-layout">
     <el-container  style="width: 100%">
-      <el-header class="top-widget" style="width: 100%" >
+      <el-header class="top-widget" >
         <Header>
 
         </Header>
@@ -23,6 +23,8 @@ import HomePage from "@/components/HomePage.vue";
   position: fixed;
   top: 0;
   left: 0;
+  width:100%;
+  z-index: 999;
   background-color: #fff;
   color: #333;
   /* 其他样式属性 */

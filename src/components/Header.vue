@@ -6,9 +6,9 @@
     <el-menu-item index="1"><span>13TH ICAMDATA</span></el-menu-item>
     <el-menu-item index="2"><span>HOME</span></el-menu-item>
     <el-sub-menu index="3">
-      <template #title>Workspace</template>
-      <el-menu-item index="2-1">item one</el-menu-item>
-      <el-menu-item index="2-2">item two</el-menu-item>
+      <template #title><span>VENUE</span></template>
+      <el-menu-item index="2-1">Lan Zhou</el-menu-item>
+      <el-menu-item index="2-2"></el-menu-item>
       <el-menu-item index="2-3">item three</el-menu-item>
       <el-sub-menu index="2-4">
         <template #title>item four</template>
