@@ -11,7 +11,7 @@ import HomePage from "@/components/HomePage.vue";
 
         </Header>
       </el-header>
-      <el-main><HomePage/></el-main>
+      <el-main style="margin-top: 490px"><HomePage/></el-main>
     </el-container>
   </div>
 </template>
@@ -19,6 +19,7 @@ import HomePage from "@/components/HomePage.vue";
 
 
 <style>
+
 .top-widget {
   position: fixed;
   top: 0;
