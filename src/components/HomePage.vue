@@ -1,7 +1,7 @@
 
 <template >
 <!--  <ImageSlider/>-->
-  <div class="container_" >
+  <div class="container_homepage" >
     <ImageSlider/>
 <!--    <img src="src/assets/photo.png"  alt="这是一个图片">-->
 <!--    <image-slider></image-slider>-->
@@ -115,7 +115,7 @@ export default {
 
 <style scoped>
 /* 你可以在这里添加组件的样式 */
-.centered-text {
+.container_homepage {
   //position: fixed;
   background-color: #7a1616;
   width: 100%;
