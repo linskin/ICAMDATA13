@@ -5,14 +5,14 @@ import ImageSlider from "@/components/ImageSlider.vue";
 </script>
 
 <template>
-  <div class="common-layout">
+  <div class="horizontal-full">
     <el-container  style="width: 100%">
       <el-header class="top-widget" >
         <Header>
 
         </Header>
       </el-header>
-      <el-main>
+      <el-main class="">
         <HomePage>
 
         </HomePage>
@@ -28,7 +28,7 @@ import ImageSlider from "@/components/ImageSlider.vue";
 <style>
 
 .top-widget {
-  //position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width:100%;
@@ -49,5 +49,16 @@ import ImageSlider from "@/components/ImageSlider.vue";
 }
 *{
   padding-left: 10px;
+}
+.horizontal-full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  height: 100%; /* 设置高度为100%以占据整个可滚动区域 */
+  overflow-y: auto; /* 允许垂直滚动 */
 }
 </style>

@@ -50,7 +50,7 @@ export default {
 .mySwiper{
   //position: relative;
   //left:0px;
-  width: 1500px;
+  width: 100%;
   height: 500px;
 }
 

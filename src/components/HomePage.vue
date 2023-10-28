@@ -125,13 +125,14 @@ export default {
 .mytext{
   position:relative;
   text-align: justify;
-  top:10px;background-color:#ffffff;
+  //top:10px;
+  background-color:#ffffff;
   font-size: 100%;
   font-style: normal
 }
-.mytable{
+.con_little_table{
   position:absolute;
-  top:400px;
+  top:300px;
   left:50px;
   max-width:40%;
   /*悬浮table*/
