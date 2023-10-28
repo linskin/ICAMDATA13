@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <div>
+  <div style="width: 100%; border: 1px #232323 ;display: flex">
+      <div style="border:1px #222222;margin: 10px">
         <span>13TH ICAMDATA</span>
       </div>
     <div>
