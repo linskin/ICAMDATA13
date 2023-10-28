@@ -1,5 +1,6 @@
 <script setup>
 import Header from "@/components/Header.vue";
+import HomePage from "@/components/HomePage.vue";
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import Header from "@/components/Header.vue";
 
         </Header>
       </el-header>
-      <el-main>Main</el-main>
+      <el-main><HomePage/></el-main>
     </el-container>
   </div>
 </template>
