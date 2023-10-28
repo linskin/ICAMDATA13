@@ -3,13 +3,13 @@
       <div style="border:1px #222222;margin: 10px">
         <span>13TH ICAMDATA</span>
       </div>
-    <div>
+    <div style="border:1px #222222;margin: 10px">
       <span>HOME</span>
     </div>
-    <div>
+    <div style="border:1px #222222;margin: 10px">
       <span><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html">ICAMDATA Chapter</a></span>
     </div>
-    <div>
+    <div style="border:1px #222222;margin: 10px">
       <span><a href="https://physics.nist.gov/Icamdata/Homepage/icamdata.html">History</a></span>
     </div>
   </div>
