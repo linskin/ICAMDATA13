@@ -1,64 +1,47 @@
 <script setup>
-import Header from "@/components/Header.vue";
-import HomePage from "@/components/HomePage.vue";
-import ImageSlider from "@/components/ImageSlider.vue";
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <div class="horizontal-full">
-    <el-container  style="width: 100%">
-      <el-header class="top-widget" >
-        <Header>
+  <header>
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-        </Header>
-      </el-header>
-      <el-main>
-        <HomePage>
+    <div class="wrapper">
+      <HelloWorld msg="You did it!" />
+    </div>
+  </header>
 
-        </HomePage>
-      </el-main>
-<!--      <el-main style="margin-top: 490px"><ImageSlider/></el-main>-->
-      <el-footer>Footer</el-footer>
-    </el-container>
-  </div>
+  <main>
+    <TheWelcome />
+  </main>
 </template>
 
+<style scoped>
+header {
+  line-height: 1.5;
+}
 
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+}
 
-<style>
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
 
-.top-widget {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  z-index: 999;
-  background-color: #fff;
-  color: #333;
-  /* 其他样式属性 */
-}
-.body{
-  //position: fixed;
-  //flex: 100%;
-  left: 0;
-  width: 100%;
-}
-.el-header{
-  padding: 0;
-  margin: 0;
-}
-*{
-  padding-left: 10px;
-}
-.horizontal-full {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  background-color: lightblue;
-  height: 100%; /* 设置高度为100%以占据整个可滚动区域 */
-  overflow-y: auto; /* 允许垂直滚动 */
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
 }
 </style>
