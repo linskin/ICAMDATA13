@@ -10,7 +10,7 @@
   </div>
     <el-row>
       <el-col :span="24">
-        <div class="grid-content">
+        <div>
           <ImageSlider class="Image_full"/>
         </div>
       </el-col>
@@ -22,7 +22,7 @@
       <el-col :span="3"><div class="null-content"/>
       </el-col>
       <el-col :span="16">
-        <div class="grid-content namoral-board">
+        <div class=" namoral-board">
           <p class=Mid  style='text-align:left'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span></p>
 
           <p class=Mid  style='text-align:left'><span lang=EN-US>&nbsp;</span></p>
@@ -98,10 +98,6 @@ export default {
   background: #ffffff;
 }
 
-.grid-content {
-  border-radius: 4px;
-  min-height: 50px;
-}
 .row-bg {
   padding: 10px 0;
   background-color: #f9fafc;
@@ -110,13 +106,7 @@ export default {
   min-height: 90px;
   background-color: #ffffff;
 }
-p.Small, li.Small, div.Small
- {
-   margin:0;
-   text-align:justify;
-   text-justify:inter-ideograph;
-   font-size:12pt;
-   font-family:"Helvetica Neue",sans-serif;}
+
 p.Mid, li.Mid, div.Mid
 {
   margin:0;
@@ -133,14 +123,6 @@ p.Bold, li.Bold, div.Bold
   font-weight: bold;
   font-family:"Helvetica Neue",
   sans-serif;}
-
-p.Lar, li.Lar, div.Lar
-{
-  margin:0;
-  text-align:justify;
-  text-justify:inter-ideograph;
-  font-size:20pt;
-  font-family:"Helvetica Neue",sans-serif;}
 
 .floating-window{
   position:absolute;

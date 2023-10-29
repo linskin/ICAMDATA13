@@ -1,20 +1,15 @@
 <script setup>
 import Header from "@/components/Header.vue";
-import HomePage from "@/components/HomePage.vue";
-import ImageSlider from "@/components/ImageSlider.vue";
 import HomePageNew from "@/components/HomePageNew.vue";
+import Footer from "@/components/Footer.vue";
+
 </script>
 
 <template>
   <div class="horizontal-full">
-        <Header class="header">
-        </Header>
-<!--        <HomePage class="el-main">-->
-<!--        </HomePage>-->
-        <home-page-new/>
-<!--      <el-main style="margin-top: 490px"><ImageSlider/></el-main>-->
-<!--      <el-footer>Footer</el-footer>-->
-
+    <el-header><Header class="header"></Header></el-header>
+    <el-main ><home-page-new/></el-main>
+    <el-footer><Footer/></el-footer>
   </div>
 </template>
 
@@ -32,6 +27,16 @@ import HomePageNew from "@/components/HomePageNew.vue";
   z-index: 999;
   /* 其他样式属性 */
 }
+.el-main{
+  margin: 0;
+  padding: 0;
+  //height: fit-content;
+}
+.el-footer{
+  margin: 0;
+  padding: 0;
+  //height: fit-content;
+}
 
 *{
   padding-left: 0;
@@ -39,7 +44,7 @@ import HomePageNew from "@/components/HomePageNew.vue";
 }
 .horizontal-full {
   position: fixed;
-  top: 60px;
+  //top: 60px;
   left: 0;
   right: 0;
   margin: 0;
