@@ -44,7 +44,7 @@ import HomePageNew from "@/components/HomePageNew.vue";
   right: 0;
   margin: 0;
   padding: 0;
-  background-color: #006cff;
+  background-color: #ffffff;
   height: 100%; /* 设置高度为100%以占据整个可滚动区域 */
   overflow-y: auto; /* 允许垂直滚动 */
 }
