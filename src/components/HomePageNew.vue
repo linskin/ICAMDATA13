@@ -98,10 +98,6 @@ export default {
   background: #ffffff;
 }
 
-.row-bg {
-  padding: 10px 0;
-  background-color: #f9fafc;
-}
 .null-content{
   min-height: 90px;
   background-color: #ffffff;
