@@ -2,7 +2,7 @@
 <template >
 <!--  <ImageSlider/>-->
   <div class="container_homepage" >
-    <ImageSlider/>
+    <ImageSlider class="Image_full"/>
 <!--    <img src="src/assets/photo.png"  alt="这是一个图片">-->
 <!--    <image-slider></image-slider>-->
     <div class="con_little_table">
@@ -17,7 +17,6 @@
 
 <!--文本-->
   <div class="mytext">
-
     <table width="90%">
       <tbody>
       <tr>
@@ -98,18 +97,7 @@ export default {
   components: {
     ImageSlider
   },
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log('slide change');
-    };
-    return {
-      onSwiper,
-      onSlideChange,
-    };
-  },
+
 };
 </script>
 
@@ -117,16 +105,17 @@ export default {
 /* 你可以在这里添加组件的样式 */
 .container_homepage {
   //position: fixed;
-  background-color: #7a1616;
+  background-color: #006cff;
   width: inherit;
   //height: 100vh; /* 设置容器的高度，可以根据需要调整 */
   //line-height: 100vh; /* 垂直居中 */
 }
+.Image_full{
+  width: inherit;
+}
 .mytext{
-  position:relative;
-  text-align: justify;
   //top:10px;
-  background-color:#ffffff;
+  background-color: #f80707;
   font-size: 100%;
   font-style: normal
 }

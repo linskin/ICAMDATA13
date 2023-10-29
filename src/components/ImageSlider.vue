@@ -2,6 +2,7 @@
 <template>
   <swiper
       :space-between="30"
+      :effect="'fade'"
       :pagination="{
       dynamicBullets: true,
     }"
@@ -13,11 +14,18 @@
       :modules="modules"
       class="mySwiper"
   >
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide><swiper-slide>Slide 3</swiper-slide>
-    <swiper-slide>Slide 4</swiper-slide><swiper-slide>Slide 5</swiper-slide>
-    <swiper-slide>Slide 6</swiper-slide><swiper-slide>Slide 7</swiper-slide>
-    <swiper-slide>Slide 8</swiper-slide><swiper-slide>Slide 9</swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-2.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-2.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-2.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt=""/></swiper-slide>
+    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>
   </swiper>
 </template>
 <script>
@@ -30,9 +38,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'
 import './ImageSliderStyle.css';
+import 'swiper/css/effect-fade'
 
 // import required modules
-import { Pagination,Autoplay,Navigation} from 'swiper/modules';
+import {Pagination, Autoplay, Navigation, EffectFade} from 'swiper/modules';
 
 export default {
   components: {
@@ -41,7 +50,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Pagination,Autoplay,Navigation],
+      modules: [Pagination,Autoplay,Navigation,EffectFade],
     };
   },
 };
@@ -50,8 +59,8 @@ export default {
 .mySwiper{
   //position: relative;
   //left:0px;
-  width: 100%;
-  height: 500px;
+  //width: 100%;
+  height: 600px;
 }
 
 </style>

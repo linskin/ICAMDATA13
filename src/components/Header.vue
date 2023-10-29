@@ -2,6 +2,7 @@
   <div>
   <el-menu
   mode="horizontal"
+  style="width: inherit"
   router>
     <el-menu-item index="1"><span>13TH ICAMDATA</span></el-menu-item>
     <el-menu-item index="2"><span>HOME</span></el-menu-item>
