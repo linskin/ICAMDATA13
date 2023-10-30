@@ -95,6 +95,7 @@ const currentDate = ref(new Date())
 <style scoped>
 .Image_full{
   width: inherit;
+  height: 600px;
 }
 .el-row {
   margin-bottom: 20px;

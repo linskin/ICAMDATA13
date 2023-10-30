@@ -17,6 +17,8 @@ import SatelliteMeeting from "@/view/SatelliteMeeting.vue";
 import Schdule from "@/view/Schdule.vue";
 import Tour from "@/view/Tour.vue";
 import InvitedSpeakers from "@/view/InvitedSpeakers.vue";
+import LogIn from "@/view/LogIn.vue";
+import LogUp from "@/view/LogUp.vue";
 
 
 
@@ -43,6 +45,8 @@ const routes = [
             { path: '/Schdule',component: Schdule},
             { path: '/Tour',component: Tour},
             { path: '/InvitedSpeakers',component: InvitedSpeakers},
+            { path: '/LogIn',component: LogIn},
+            { path: '/LogUp',component: LogUp},
         ],
     },
 ];

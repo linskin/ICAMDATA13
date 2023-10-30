@@ -1,6 +1,6 @@
 <template>
-  <el-divider class="el-divider"/>
-  <el-row>
+  <el-divider class="divider"/>
+  <el-row style="margin-bottom: 50px">
     <el-col :span="16" :offset="5">
       <div class="Sponsors" >
         <span>这里插入赞助商logo</span>
@@ -12,11 +12,8 @@
         <img src="" alt="" class="img_holder">
         <img src="" alt="" class="img_holder">
         <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
       </div>
     </el-col>
-
-    <el-col :span="2"><div style="background-color: #eeeeee"></div></el-col>
   </el-row>
 </template>
 
@@ -30,15 +27,15 @@ export default {
 </script>
 
 <style scoped>
-.el-divider{
-  height: 1.5px;
+.divider{
+  height: 0.08pc;
   background-color: rgba(0, 0, 0, 0.24);
 }
 .Sponsors{
   background-color: #ffffff;
   //padding: 10vw;
   //width: 1200px;
-  min-height: 500px;
+  //min-height: 500px;
   //z-index: 2200;
 }
 .text{

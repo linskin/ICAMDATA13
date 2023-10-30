@@ -10,7 +10,7 @@
       <el-menu-item index="/Committees"><span>COMMITTEES</span></el-menu-item>
       <el-sub-menu>
         <template #title><span>PROGRAMME</span></template>
-        <el-menu-item index="/InvitedSpeakers">Invited Speakers</el-menu-item>
+        <el-menu-item index="/InvitedSpeakers">INVITED SPEAKERS</el-menu-item>
         <el-menu-item index="/DataBase">DATABASE</el-menu-item>
         <el-menu-item index="/Schdule">SCHDULE</el-menu-item>
         <el-menu-item index="/PosterSession">POSTER SESSION</el-menu-item>
@@ -30,14 +30,10 @@
       <el-menu-item ><span><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html">ICAMDATA CHAPTER</a></span></el-menu-item>
       <el-menu-item ><span><a href="https://physics.nist.gov/Icamdata/Homepage/icamdata.html">HISTORY</a></span></el-menu-item>
       <div style="flex-grow: 0.95"/>
-      <div style="margin-top: 15px">
-        <el-button  text>LOG IN</el-button>
-        <el-divider direction="vertical" class="divider"/>
-        <el-button  text>LOG UP</el-button>
-      </div>
+      <el-menu-item index="00">LOG IN</el-menu-item>
+      <el-divider direction="vertical" class="divider"/>
+      <el-menu-item index="00">LOG UP</el-menu-item>
     </el-menu>
-
-
   </div>
 </template>
 <script>
@@ -58,7 +54,9 @@ const open = () => {
 </script>
 <style>
 .divider{
-  height: 1.5px;
-  background-color: rgba(0, 0, 0, 0.23);
+  //width: 0.015vw;
+  height: 40%;
+  top: 30%;
+  background-color: rgba(0, 0, 0, 0.55);
 }
 </style>

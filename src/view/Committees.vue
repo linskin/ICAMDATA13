@@ -103,7 +103,7 @@ const LocalData =[
     </el-col>
     <el-col :span="18">
       <p class="Bold">International Program Committee</p>
-      <el-table :data="InterData">
+      <el-table :data="InterData" class="Mid">
         <el-table-column prop="date"   />
         <el-table-column prop="name" align="right"/>
       </el-table>
@@ -111,7 +111,7 @@ const LocalData =[
         <el-col :span="24"><div class="null-content"/></el-col>
       </el-row>
       <p class="Bold">Local Organizing Committee</p>
-      <el-table :data="LocalData">
+      <el-table :data="LocalData" class="Mid">
         <el-table-column prop="date"/>
         <el-table-column prop="name" align="right" />
       </el-table>
@@ -125,12 +125,24 @@ const LocalData =[
   min-height: 90px;
   background-color: #ffffff;
 }
-p.Bold{
+.Bold{
   margin:0;
 //text-align:justify;
 //text-justify:inter-ideograph;
   font-size:16pt;
   font-weight: bold;
-  font-family:"Helvetica Neue",
-  sans-serif;}
+  font-family:"微软雅黑",serif;
+  //font-family:"Helvetica Neue",
+  //sans-serif;
+}
+.Mid{
+  margin:0;
+//text-align:justify;
+//text-justify:inter-ideograph;
+  font-size:14pt;
+  font-family:"微软雅黑 Light",serif;
+  //font-weight: bold;
+  //font-family:"Helvetica Neue",
+  //sans-serif;
+}
 </style>
