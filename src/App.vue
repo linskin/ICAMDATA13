@@ -1,6 +1,6 @@
 <script setup>
 import Header from "@/components/Header.vue";
-import HomePageNew from "@/components/HomePageNew.vue";
+import HomePageNew from "@/view/HomePageNew.vue";
 import Footer from "@/components/Footer.vue";
 
 </script>
@@ -8,7 +8,7 @@ import Footer from "@/components/Footer.vue";
 <template>
   <div class="horizontal-full">
     <el-header><Header class="header"></Header></el-header>
-    <el-main ><home-page-new/></el-main>
+    <el-main ><router-view/></el-main>
     <el-footer><Footer/></el-footer>
   </div>
 </template>

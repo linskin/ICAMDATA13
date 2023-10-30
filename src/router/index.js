@@ -1,15 +1,33 @@
-import vue from "@vitejs/plugin-vue";
+import {createRouter, createWebHashHistory} from "vue-router";
 
-Vue.use(VueRouter)
-const routes =[
+import register from "@/view/register.vue";
+import DataTime from "@/view/DataTime.vue";
+import HomePageNew from "@/view/HomePageNew.vue";
+
+const routes = [
     {
-        path:'/',
-        component:()=>import('../App.vue'),
-        redirect:"/home",
-        children:[
-            {path:'home',component:()=>import('../view/HOME.vue')},
-            {path:'register',component:()=>import('../view/register.vue')},
-            {path:'DataTime',component:()=>import('../view/DataTime.vue')}
-        ]
-    }
-]
+        path: '/',
+        redirect:"/HomePageNew",
+        children: [
+            { path: '', component: HomePageNew },
+            { path:'/HOME',component: HomePageNew},
+            { path: '/register',component: register},
+            { path: '/DataTime',component: DataTime},
+            // { path: '/',component: },
+            // { path: '/',component: },
+            // { path: '/',component: },
+            // { path: '/',component: },
+        ],
+    },
+];
+
+const router= createRouter({
+    // 4. 采用hash 模式
+    history:
+        createWebHashHistory(),
+    // 采用 history 模式
+    // history: createWebHistory(),
+    routes, //使用上方定义的路由配置
+});
+
+export default router

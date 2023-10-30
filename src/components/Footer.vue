@@ -57,7 +57,7 @@ export default {
 
 <style scoped>
 .el-divider{
-  height: 2px;
+  height: 1px;
   background-color: rgba(0, 0, 0, 0.23);
 }
 .Sponsors{

@@ -1,7 +1,5 @@
 <script setup>
-  export default {
-    name:"HOME"
-  }
+
 </script>
 
 <template>
