@@ -1,8 +1,24 @@
 import {createRouter, createWebHashHistory} from "vue-router";
 
-import register from "@/view/register.vue";
 import DataTime from "@/view/DataTime.vue";
 import HomePageNew from "@/view/HomePageNew.vue";
+import Accommodation from "@/view/Accommodation.vue";
+import Committees from "@/view/Committees.vue";
+import Lanzhou from "@/view/Lanzhou.vue";
+import Programme from "@/view/Programme.vue";
+import Registration from "@/view/Registration.vue";
+import Northwest_Normal_University from "@/view/Northwest_Normal_University.vue";
+import Travel_Info from "@/view/Travel_Info.vue";
+import BestPosterAwards from "@/view/BestPosterAwards.vue";
+import DataBase from "@/view/DataBase.vue";
+import GanSuProvince from "@/view/GanSuProvince.vue";
+import IcamdataCollections from "@/view/IcamdataCollections.vue";
+import PosterSession from "@/view/PosterSession.vue";
+import SatelliteMeeting from "@/view/SatelliteMeeting.vue";
+import Schdule from "@/view/Schdule.vue";
+import Tour from "@/view/Tour.vue";
+
+
 
 const routes = [
     {
@@ -11,12 +27,22 @@ const routes = [
         children: [
             { path: '', component: HomePageNew },
             { path:'/HOME',component: HomePageNew},
-            { path: '/register',component: register},
             { path: '/DataTime',component: DataTime},
-            // { path: '/',component: },
-            // { path: '/',component: },
-            // { path: '/',component: },
-            // { path: '/',component: },
+            { path: '/Accommodation',component: Accommodation},
+            { path: '/Committees',component: Committees},
+            { path: '/Lanzhou',component: Lanzhou},
+            { path: '/Northwest_Normal_University',component: Northwest_Normal_University},
+            { path: '/Programme',component: Programme},
+            { path: '/Registration',component: Registration},
+            { path: '/Travel_Info',component: Travel_Info},
+            { path: '/BestPosterAwards',component: BestPosterAwards},
+            { path: '/DataBase',component: DataBase},
+            { path: '/GanSuProvince',component: GanSuProvince},
+            { path: '/IcamdataCollections',component: IcamdataCollections},
+            { path: '/PosterSession',component: PosterSession},
+            { path: '/SatelliteMeeting',component: SatelliteMeeting},
+            { path: '/Schdule',component: Schdule},
+            { path: '/Tour',component: Tour},
         ],
     },
 ];

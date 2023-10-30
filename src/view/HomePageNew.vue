@@ -19,8 +19,7 @@
       <el-col :span="24"><div class="null-content"/></el-col>
     </el-row>
     <el-row>
-      <el-col :span="3"><div class="null-content"/>
-      </el-col>
+      <el-col :span="3"><div class="null-content"/></el-col>
       <el-col :span="16">
         <div class=" namoral-board">
           <p class=Mid  style='text-align:left'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span></p>

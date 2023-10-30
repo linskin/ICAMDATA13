@@ -1,5 +1,7 @@
 <script>
-
+export default {
+  name:"Tour"
+}
 </script>
 
 <template>
