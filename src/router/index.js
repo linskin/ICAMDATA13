@@ -5,7 +5,6 @@ import HomePageNew from "@/view/HomePageNew.vue";
 import Accommodation from "@/view/Accommodation.vue";
 import Committees from "@/view/Committees.vue";
 import Lanzhou from "@/view/Lanzhou.vue";
-import Programme from "@/view/Programme.vue";
 import Registration from "@/view/Registration.vue";
 import Northwest_Normal_University from "@/view/Northwest_Normal_University.vue";
 import Travel_Info from "@/view/Travel_Info.vue";
@@ -17,6 +16,7 @@ import PosterSession from "@/view/PosterSession.vue";
 import SatelliteMeeting from "@/view/SatelliteMeeting.vue";
 import Schdule from "@/view/Schdule.vue";
 import Tour from "@/view/Tour.vue";
+import InvitedSpeakers from "@/view/InvitedSpeakers.vue";
 
 
 
@@ -32,7 +32,6 @@ const routes = [
             { path: '/Committees',component: Committees},
             { path: '/Lanzhou',component: Lanzhou},
             { path: '/Northwest_Normal_University',component: Northwest_Normal_University},
-            { path: '/Programme',component: Programme},
             { path: '/Registration',component: Registration},
             { path: '/Travel_Info',component: Travel_Info},
             { path: '/BestPosterAwards',component: BestPosterAwards},
@@ -43,6 +42,7 @@ const routes = [
             { path: '/SatelliteMeeting',component: SatelliteMeeting},
             { path: '/Schdule',component: Schdule},
             { path: '/Tour',component: Tour},
+            { path: '/InvitedSpeakers',component: InvitedSpeakers},
         ],
     },
 ];

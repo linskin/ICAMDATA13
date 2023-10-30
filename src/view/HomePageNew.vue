@@ -15,12 +15,9 @@
         </div>
       </el-col>
     </el-row>
-    <el-row>
-      <el-col :span="24"><div class="null-content"/></el-col>
-    </el-row>
-    <el-row>
-      <el-col :span="3"><div class="null-content"/></el-col>
-      <el-col :span="16">
+
+    <el-row style="margin-top: 90px">
+      <el-col :span="18" :offset="3">
         <div class=" namoral-board">
           <p class=Mid  style='text-align:left'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span></p>
 
@@ -64,12 +61,31 @@
 
           <p class=Mid  style='margin-left:42.0pt;text-align:left;text-indent:-21.0pt;mso-list:l0 level1 lfo4;tab-stops:21.0pt'><span lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>l<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><span lang=EN-US>Particle-surface interactions.</span></p>
         </div>
-
       </el-col>
     </el-row>
-    <el-row>
-      <el-col :span="24"><div class="null-content"/></el-col>
-    </el-row>
+  <el-row style="margin-top: 90px;margin-bottom: 90px">
+    <el-col :span="20" :offset="2">
+      <div class="text Mid">
+      <p class=Mid  style='text-align:left'><span lang=EN-US>The scientific programme will include invited and contributed talks in the regular sessions, a poster session and special sessions devoted to uncertainty quantification and database demonstrations.</span></p>
+
+      <p class=Mid  style='text-align:left'><span lang=EN-US>&nbsp;</span></p>
+
+      <p class=Mid  style='text-align:left'><span lang=EN-US>13th ICAMDATA, hosted by the
+          <a href="https://www.nwnu.edu.cn/" target="_blank">NWNU</a>, constituted in Comitato Organizzatore di ICAMDATA 2020&star;, in the beautiful scenario of the
+          <a href="http://wlj.lanzhou.gov.cn/" target="_blank">Lan Zhou</a>, is organized in cooperation with the
+          <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA)</a>, with the patronage of the
+          <a href="" target="_blank">xxx</a>, of the
+          <a href=" " target="_blank">xxx</a> and of the
+          <a href=" " target="_blank">xxx</a>, and the event is sponsored by
+          <a href=" ">xxx</a> and the
+          <a href="" target="_blank">xxx </a>.</span></p>
+
+      <p class=Mid  style='text-align:left'><span lang=EN-US>&nbsp;</span></p>
+
+      <p class=Mid  style='text-align:left'><span lang=EN-US>&star; Comitato Organizzatore di ICAMDATA 2023 (Via E Orabona 4 – Bari 70126 CF: 93503700721) is a non-profit organization whose only scope is to organize the 13th ICAMDATA</span></p>
+    </div>
+    </el-col>
+  </el-row>
 </template>
 <script>
 import ImageSlider from "@/components/ImageSlider.vue";
@@ -100,10 +116,6 @@ export default {
 .row-bg {
   padding: 10px 0;
   background-color: #f9fafc;
-}
-.null-content{
-  min-height: 90px;
-  background-color: #ffffff;
 }
 
 p.Mid, li.Mid, div.Mid

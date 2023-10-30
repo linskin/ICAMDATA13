@@ -3,35 +3,22 @@
   <br>
 <!--  <ImageSlider class="Image_full"/>/////////////-->
 
-  <el-row :gutter="20">
-    <el-col :span="6"><div class="grid-content ep-bg-purple" />
-      <el-row>
-        <el-col
-            v-for="(o, index) in 1"
-            :key="o"
-            :span="8"
-            :offset="index > 0 ? 2 : 0"
-        >
-          <el-card :body-style="{ padding: '0px' }">
-            <img
-
-                src="src/assets/ganSuDiTu.png"
-                class="image"
-            />
+  <el-row >
+    <el-col :span="8"><div class="grid-content ep-bg-purple" />
+          <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+            <ImageSlider class="Image_full"/>
             <div style="padding: 14px">
-              <span>Yummy hamburger</span>
-              <div class="bottom">
-                <time class="time">{{ currentDate }}</time>
-                <el-button text class="button" on-click="toGanSu">Operating</el-button>
-              </div>
+              <span style="align-content: center">Map of Gansu Province</span>
             </div>
           </el-card>
-        </el-col>
-      </el-row>
-
+    </el-col>
+    <el-col :span="16" offset="8" style="justify-content: right">
+      <div class="grid-content" style="background-color: #2c3e50" />
+    <div>
+      甘肃省的描述
+    </div>
 
     </el-col>
-    <el-col :span="6"><div class="grid-content ep-bg-purple" />12312</el-col>
   </el-row>
 
   <el-row >
@@ -94,8 +81,11 @@
 </template>
 
 <script>
+import ImageSlider from "@/components/ImageSlider.vue";
+
 export default {
-  name: "GanSu"
+  name: "GanSu",
+  components: {ImageSlider}
 }
 import { ref } from 'vue'
 
@@ -103,6 +93,9 @@ const currentDate = ref(new Date())
 </script>
 
 <style scoped>
+.Image_full{
+  width: inherit;
+}
 .el-row {
   margin-bottom: 20px;
 }
