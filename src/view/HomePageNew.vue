@@ -123,14 +123,14 @@ p.Mid, li.Mid, div.Mid
   margin:0;
   text-align:justify;
   text-justify:inter-ideograph;
-  font-size:16pt;
+  font-size:14pt;
   font-family:"Helvetica Neue",sans-serif;}
 p.Bold, li.Bold, div.Bold
 {
   margin:0;
   //text-align:justify;
   //text-justify:inter-ideograph;
-  font-size:16pt;
+  font-size:14pt;
   font-weight: bold;
   font-family:"Helvetica Neue",
   sans-serif;}
