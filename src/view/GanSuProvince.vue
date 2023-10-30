@@ -1,4 +1,7 @@
 <template>
+  <h1>Gansu</h1>
+  <br>
+<!--  <ImageSlider class="Image_full"/>/////////////-->
 
   <el-row :gutter="20">
     <el-col :span="6"><div class="grid-content ep-bg-purple" />
@@ -29,6 +32,62 @@
 
     </el-col>
     <el-col :span="6"><div class="grid-content ep-bg-purple" />12312</el-col>
+  </el-row>
+
+  <el-row >
+    <el-col :span="8"><div class="grid-content ep-bg-purple" />
+      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+        <ImageSlider class="Image_full"/>
+        <div style="padding: 14px">
+          <span style="align-content: center">Map of Gansu Province</span>
+        </div>
+      </el-card>
+    </el-col>
+    <el-col :span="16" offset="8" style="justify-content: right">
+      <div class="grid-content" style="background-color: #2c3e50" />
+      <div>
+        敦煌的描述
+      </div>
+
+    </el-col>
+  </el-row>
+
+
+  <el-row >
+    <el-col :span="8"><div class="grid-content ep-bg-purple" />
+      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+        <ImageSlider class="Image_full"/>
+        <div style="padding: 14px">
+          <span style="align-content: center">Map of Gansu Province</span>
+        </div>
+      </el-card>
+    </el-col>
+    <el-col :span="16" offset="8" style="justify-content: right">
+      <div class="grid-content" style="background-color: #2c3e50" />
+      <div>
+        麦积山的描述
+      </div>
+
+    </el-col>
+  </el-row>
+
+
+  <el-row >
+    <el-col :span="8"><div class="grid-content ep-bg-purple" />
+      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+        <ImageSlider class="Image_full"/>
+        <div style="padding: 14px">
+          <span style="align-content: center">Map of Gansu Province</span>
+        </div>
+      </el-card>
+    </el-col>
+    <el-col :span="16" offset="8" style="justify-content: right">
+      <div class="grid-content" style="background-color: #2c3e50" />
+      <div>
+        甘南草原的描述
+      </div>
+
+    </el-col>
   </el-row>
 
 
