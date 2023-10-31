@@ -1,9 +1,8 @@
 <template>
-  <div style="width: 100%">
     <el-menu
-        :ellipsis="false"
+        :ellipsis="true"
         mode="horizontal"
-        style="width: inherit"
+        style="width: 100%"
         router>
       <el-menu-item><span>13TH ICAMDATA</span></el-menu-item>
       <el-menu-item index="/"><span>HOME</span></el-menu-item>
@@ -27,14 +26,11 @@
       </el-sub-menu>
       <el-menu-item index="/Registration">REGISTRATION</el-menu-item>
       <el-menu-item index="/DataTime"><span>DATATIME</span></el-menu-item>
-      <el-menu-item ><span><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html">ICAMDATA CHAPTER</a></span></el-menu-item>
-      <el-menu-item ><span><a href="https://physics.nist.gov/Icamdata/Homepage/icamdata.html">HISTORY</a></span></el-menu-item>
-      <div style="flex-grow: 0.95"/>
-      <el-menu-item index="00">LOG IN</el-menu-item>
-      <el-divider direction="vertical" class="divider"/>
-      <el-menu-item index="00">LOG UP</el-menu-item>
+      <el-menu-item ><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html" >ICAMDATA CHAPTER</a></el-menu-item>
+      <el-menu-item style="margin-right: 30%"><a href="https://physics.nist.gov/Icamdata/Homepage/icamdata.html">HISTORY</a></el-menu-item>
+      <el-menu-item index="/LogIn">LOG IN</el-menu-item>
+      <el-menu-item index="/LogUp">LOG UP</el-menu-item>
     </el-menu>
-  </div>
 </template>
 <script>
 import { ElMessageBox } from 'element-plus'
@@ -53,10 +49,5 @@ const open = () => {
 
 </script>
 <style>
-.divider{
-  //width: 0.015vw;
-  height: 40%;
-  top: 30%;
-  background-color: rgba(0, 0, 0, 0.55);
-}
+
 </style>

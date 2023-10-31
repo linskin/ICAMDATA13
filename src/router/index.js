@@ -19,7 +19,7 @@ import Tour from "@/view/Tour.vue";
 import InvitedSpeakers from "@/view/InvitedSpeakers.vue";
 import LogIn from "@/view/LogIn.vue";
 import LogUp from "@/view/LogUp.vue";
-
+// import ICAMDATACHAPTER from "https://physics.nist.gov/Icamdata/Homepage/charter.html"
 
 
 const routes = [
@@ -47,6 +47,7 @@ const routes = [
             { path: '/InvitedSpeakers',component: InvitedSpeakers},
             { path: '/LogIn',component: LogIn},
             { path: '/LogUp',component: LogUp},
+            // { path: '/ICAMDATACHAPTER',component: ICAMDATACHAPTER},
         ],
     },
 ];
