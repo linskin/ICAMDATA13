@@ -1,17 +1,17 @@
 <template>
   <el-divider class="divider"/>
   <el-row style="margin-bottom: 50px">
-    <el-col :span="16" :offset="5">
-      <div class="Sponsors" >
-        <span>这里插入赞助商logo</span>
-        <p><span>&nbsp;</span></p>
-        <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
-        <img src="" alt="" class="img_holder">
+    <el-col :span="16" :offset="4">
+      <div>
+<!--        <span>这里插入赞助商logo</span>-->
+<!--        <p><span>&nbsp;</span></p>-->
+        <img src="src/components/icons/zanzhushang.png" alt="赞助商" class="img_holder">
+<!--        <img src="" alt="" class="img_holder">-->
+<!--        <img src="" alt="" class="img_holder">-->
+<!--        <img src="" alt="" class="img_holder">-->
+<!--        <img src="" alt="" class="img_holder">-->
+<!--        <img src="" alt="" class="img_holder">-->
+<!--        <img src="" alt="" class="img_holder">-->
       </div>
     </el-col>
   </el-row>
@@ -30,13 +30,6 @@ export default {
 .divider{
   height: 0.08pc;
   background-color: rgba(0, 0, 0, 0.24);
-}
-.Sponsors{
-  background-color: #ffffff;
-  //padding: 10vw;
-  //width: 1200px;
-  //min-height: 500px;
-  //z-index: 2200;
 }
 .text{
   background-color: #ffffff;
@@ -62,7 +55,7 @@ p.Mid, li.Mid, div.Mid
 .img_holder{
   margin: 10px;
   //background-color: #181818;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
 </style>
