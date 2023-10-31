@@ -6,17 +6,35 @@
 </script>
 
 <template>
-  <div>
-    <el-row>
-      <el-col :span="8">
-
-      </el-col>
-      <el-col :span="16">
-        <img src="" alt="" style="height: 200px;width: 200px;background-color: #222222"/>
-        <p>请在此输入内容</p>
-      </el-col>
-    </el-row>
-  </div>
+  <h2>Important Date</h2>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
+  <el-row>
+    <el-col></el-col>
+    <el-col></el-col>
+  </el-row>
 </template>
 
 <style scoped>
