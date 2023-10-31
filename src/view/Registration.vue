@@ -1,11 +1,11 @@
-<script setup>
+
+<script>
   export default {
-    name:"register"
+    name: "Registration"
   }
 </script>
 
 <template>
-
 </template>
 
 <style scoped>
