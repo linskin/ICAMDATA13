@@ -47,7 +47,7 @@ const routes = [
             { path: '/InvitedSpeakers',component: InvitedSpeakers},
             { path: '/LogIn',component: LogIn},
             { path: '/LogUp',component: LogUp},
-            // { path: '/ICAMDATACHAPTER',component: ICAMDATACHAPTER},
+            // { path: '/ICAMDATACHAPTER',component: Travel_Info},
         ],
     },
 ];

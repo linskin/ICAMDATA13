@@ -1,83 +1,66 @@
 <template>
-  <h1>Gansu</h1>
-  <br>
 <!--  <ImageSlider class="Image_full"/>/////////////-->
-
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-          <el-card :body-style="{ padding: '0px' ,width: '800px' }">
-            <ImageSlider class="Image_full"/>
-            <div style="padding: 14px">
-              <span style="align-content: center">Map of Gansu Province</span>
-            </div>
-          </el-card>
-    </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
-    <div>
-      甘肃省的描述
-    </div>
-
+  <el-row>
+    <el-col :offset="1" :span="20">
+      <h1>Gansu</h1>
     </el-col>
   </el-row>
 
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+  <el-row style="margin-bottom: 10%" class="namoral">
+    <el-col :span="8" :offset="2">
+      <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider class="Image_full"/>
         <div style="padding: 14px">
           <span style="align-content: center">Map of Gansu Province</span>
         </div>
       </el-card>
     </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
+    <el-col :span="10" :offset="1" style="justify-content: right">
       <div>
-        敦煌的描述
+        Gansu is a province located in northwest China, known for its rich cultural and historical heritage. One of its most famous attractions is the Mogao Caves in Dunhuang, also known as the "Caves of the Thousand Buddhas". These caves contain some of the finest examples of Buddhist art and architecture in the world, dating back to the 4th century AD.(配图敦煌)
       </div>
-
     </el-col>
   </el-row>
 
-
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+<el-row style="margin-bottom: 10%" class="namoral">
+    <el-col :span="8" :offset="2">
+      <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider class="Image_full"/>
         <div style="padding: 14px">
           <span style="align-content: center">Map of Gansu Province</span>
         </div>
       </el-card>
     </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
+    <el-col :span="10" :offset="1" style="justify-content: right">
       <div>
-        麦积山的描述
+        Another notable site in Gansu is the Maijishan Mountain, which features a series of cliff-side grottoes containing Buddhist statues and murals. The area also offers stunning views of the surrounding landscape, making it a popular destination for nature lovers and hikers.(配图麦积山)
       </div>
-
     </el-col>
   </el-row>
 
-
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+  <el-row style="margin-bottom: 5%" class="namoral">
+    <el-col :span="8" :offset="2">
+      <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider class="Image_full"/>
         <div style="padding: 14px">
           <span style="align-content: center">Map of Gansu Province</span>
         </div>
       </el-card>
     </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
+    <el-col :span="10" :offset="1" style="justify-content: right">
       <div>
-        甘南草原的描述
+        Additionally, the vast grasslands of Gannan offer a unique opportunity to experience the beauty of China's natural environment and traditional nomadic culture.(甘南草原)
       </div>
-
     </el-col>
   </el-row>
 
-
+  <el-row class="namoral">
+    <el-col :offset="3" :span="20">
+      <div>
+        Overall, Gansu is a fascinating destination for anyone interested in Chinese culture and history, and would make a great addition to any international academic conference itinerary.
+      </div>
+    </el-col>
+  </el-row>
 </template>
 
 <script>
@@ -131,5 +114,12 @@ const currentDate = ref(new Date())
 .image {
   width: 100%;
   display: block;
+}
+
+.namoral
+{
+  margin:5px;
+  font-size:13pt;
+  font-family:"微软雅黑 Light",sans-serif;
 }
 </style>

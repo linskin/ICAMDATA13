@@ -1,83 +1,44 @@
 <template>
-  <h1>Gansu</h1>
-  <br>
   <!--  <ImageSlider class="Image_full"/>/////////////-->
+  <el-row>
+    <el-col :offset="1" :span="20">
+      <h1>LanZhou</h1>
+    </el-col>
+  </el-row>
 
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+  <el-row style="margin-bottom: 10%" class="namoral">
+    <el-col :span="8" :offset="2">
+      <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider class="Image_full"/>
         <div style="padding: 14px">
           <span style="align-content: center">Map of Gansu Province</span>
         </div>
       </el-card>
     </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
-      <div>
-        甘肃省的描述
-      </div>
-
+    <el-col :span="10" :offset="1" style="justify-content: right">
+      <div>Lanzhou, the capital of Gansu Province, is located in the geometric center of China's land map, and is an important central city, industrial base and comprehensive transportation hub in Northwest China, as well as a core node city of the Silk Road Economic Belt. With a history of over 2,000 years, it has a rich cultural heritage that attracts many tourists every year. One of the most famous historical sites in Lanzhou is the White Pagoda Mountain, which features a towering white pagoda that was built during the Tang Dynasty (618 to 907 A.D). The Gansu Provincial Museum, which houses many ancient artifacts and exhibits that showcase the region's history and culture, is also famous. (配图白塔山，省博)</div>
     </el-col>
   </el-row>
 
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
+  <el-row style="margin-bottom: 10%" class="namoral">
+    <el-col :span="8" :offset="2">
+      <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider class="Image_full"/>
         <div style="padding: 14px">
           <span style="align-content: center">Map of Gansu Province</span>
         </div>
       </el-card>
     </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
-      <div>
-        敦煌的描述
-      </div>
-
+    <el-col :span="10" :offset="1" style="justify-content: right">
+      <div>In addition to its historical sites, Lanzhou is also known for its natural scenery. Lanzhou is the only provincial capital where the Yellow River passes through the city, provides a beautiful backdrop for visitors. The Bingling Temple Grottoes, located just outside of Lanzhou, are also a must-see for tourists. (配图黄河与炳灵寺石窟)</div>
     </el-col>
   </el-row>
 
-
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
-        <ImageSlider class="Image_full"/>
-        <div style="padding: 14px">
-          <span style="align-content: center">Map of Gansu Province</span>
-        </div>
-      </el-card>
-    </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
-      <div>
-        麦积山的描述
-      </div>
-
+  <el-row class="namoral">
+    <el-col :offset="3" :span="20">
+      <div>Lanzhou is a city that offers a unique blend of history, culture, and natural beauty. We hope you enjoy the trip to Lanzhou and NWNU.</div>
     </el-col>
   </el-row>
-
-
-  <el-row >
-    <el-col :span="8"><div class="grid-content ep-bg-purple" />
-      <el-card :body-style="{ padding: '0px' ,width: '800px' }">
-        <ImageSlider class="Image_full"/>
-        <div style="padding: 14px">
-          <span style="align-content: center">Map of Gansu Province</span>
-        </div>
-      </el-card>
-    </el-col>
-    <el-col :span="16" offset="8" style="justify-content: right">
-      <div class="grid-content" style="background-color: #2c3e50" />
-      <div>
-        甘南草原的描述
-      </div>
-
-    </el-col>
-  </el-row>
-
-
 </template>
 
 <script>
@@ -95,7 +56,6 @@ const currentDate = ref(new Date())
 <style scoped>
 .Image_full{
   width: inherit;
-  height: 600px;
 }
 .el-row {
   margin-bottom: 20px;
@@ -132,5 +92,12 @@ const currentDate = ref(new Date())
 .image {
   width: 100%;
   display: block;
+}
+
+.namoral
+{
+  margin:5px;
+  font-size:13pt;
+  font-family:"微软雅黑 Light",sans-serif;
 }
 </style>

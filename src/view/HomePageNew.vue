@@ -13,7 +13,7 @@
 
       <div class="floating-window-label">
         <span>
-          <img src="src/assets/label.png" alt="label" />
+          <img src="../components/icons/label.png" alt="label" />
         </span>
       </div>
 
@@ -123,9 +123,7 @@ export default {
 .el-col {
   border-radius: 0px;
 }
-.namoral-board {
-  background: #ffffff;
-}
+
 
 .row-bg {
   padding: 10px 0;

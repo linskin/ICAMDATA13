@@ -4,32 +4,45 @@
         mode="horizontal"
         style="width: 100%"
         router>
-      <el-menu-item><span>13TH ICAMDATA</span></el-menu-item>
-      <el-menu-item index="/"><span>HOME</span></el-menu-item>
-      <el-menu-item index="/Committees"><span>COMMITTEES</span></el-menu-item>
+      <el-menu-item><span class="text">13TH ICAMDATA</span></el-menu-item>
+
+      <el-menu-item index="/"><span class="text">HOME</span></el-menu-item>
+
+      <el-menu-item index="/Committees"><span class="text">COMMITTEES</span></el-menu-item>
+
       <el-sub-menu>
-        <template #title><span>PROGRAMME</span></template>
-        <el-menu-item index="/InvitedSpeakers">INVITED SPEAKERS</el-menu-item>
-        <el-menu-item index="/DataBase">DATABASE</el-menu-item>
-        <el-menu-item index="/Schdule">SCHDULE</el-menu-item>
-        <el-menu-item index="/PosterSession">POSTER SESSION</el-menu-item>
-        <el-menu-item index="/BestPosterAwards">BEST POSTER AWARDS（*）</el-menu-item>
-        <el-menu-item index="/SatelliteMeeting">SATELLITE MEETING</el-menu-item>
-        <el-menu-item index="/IcamdataCollections">ICAMDATA COLLECTIONS</el-menu-item>
+        <template #title><span class="text">PROGRAMME</span></template>
+        <el-menu-item index="/InvitedSpeakers"><span class="text">INVITED SPEAKERS</span></el-menu-item>
+        <el-menu-item index="/DataBase"><span class="text">DATABASE</span></el-menu-item>
+        <el-menu-item index="/Schdule"><span class="text">SCHDULE</span></el-menu-item>
+        <el-menu-item index="/PosterSession"><span class="text">POSTER SESSION</span></el-menu-item>
+        <el-menu-item index="/BestPosterAwards"><span class="text">BEST POSTER AWARDS（*）</span></el-menu-item>
+        <el-menu-item index="/SatelliteMeeting"><span class="text">SATELLITE MEETING</span></el-menu-item>
+        <el-menu-item index="/IcamdataCollections"><span class="text">ICAMDATA COLLECTIONS</span></el-menu-item>
       </el-sub-menu>
+
       <el-sub-menu index="3">
-        <template #title><span>VENUE</span></template>
-        <el-menu-item index="/GanSuProvince">GANSU PROVINCE</el-menu-item>
-        <el-menu-item index="/Lanzhou">LAN ZHOU</el-menu-item>
-        <el-menu-item index="/Northwest_Normal_University">NORTHWEST NORMAL UNIVERSITY</el-menu-item>
-        <el-menu-item index="/Accommodation">ACCOMMODATION</el-menu-item>
+        <template #title><span class="text">VENUE</span></template>
+        <el-menu-item index="/GanSuProvince"><span class="text">GANSU PROVINCE</span></el-menu-item>
+        <el-menu-item index="/Lanzhou"><span class="text">LAN ZHOU</span></el-menu-item>
+        <el-menu-item index="/Northwest_Normal_University"><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
+        <el-menu-item index="/Accommodation"><span class="text">ACCOMMODATION</span></el-menu-item>
+        <el-menu-item index="/Travel_Info"><span class="text">TRAVEL INFO</span></el-menu-item>
       </el-sub-menu>
-      <el-menu-item index="/Registration">REGISTRATION</el-menu-item>
-      <el-menu-item index="/DataTime"><span>DATATIME</span></el-menu-item>
-      <el-menu-item ><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html" >ICAMDATA CHAPTER</a></el-menu-item>
-      <el-menu-item style="margin-right: 30%"><a href="https://physics.nist.gov/Icamdata/Homepage/icamdata.html">HISTORY</a></el-menu-item>
-      <el-menu-item index="/LogIn">LOG IN</el-menu-item>
-      <el-menu-item index="/LogUp">LOG UP</el-menu-item>
+
+      <el-menu-item index="/Registration"><span class="text">REGISTRATION</span></el-menu-item>
+
+      <el-menu-item index="/DataTime"><span class="text">DATATIME</span></el-menu-item>
+
+      <el-menu-item><span class="text"><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html" >ICAMDATA CHAPTER</a></span></el-menu-item>
+
+      <el-menu-item><span class="text"><a href="https://physics.nist.gov/Icamdata/Homepage/icamdata.html">HISTORY</a></span></el-menu-item>
+
+      <div style="flex-grow: 0.8"/>
+
+      <el-menu-item index="/LogIn"><span class="text">LOG IN</span></el-menu-item>
+
+      <el-menu-item index="/LogUp"><span class="text">LOG UP</span></el-menu-item>
     </el-menu>
 </template>
 <script>
@@ -49,5 +62,7 @@ const open = () => {
 
 </script>
 <style>
-
+.text{
+font-size: 16px;
+}
 </style>
