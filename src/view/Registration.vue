@@ -1,11 +1,17 @@
 
 <script>
-  export default {
-    name: "Registration"
-  }
+
 </script>
 
 <template>
+  <el-row>
+    <el-col :span="24">
+      <div style="font-size: 30px;text-align: center;margin-top: 10%;margin-bottom: 10%">
+        Registration will be open at March 1, 2024.
+      </div>
+    </el-col>
+  </el-row>
+
 </template>
 
 <style scoped>

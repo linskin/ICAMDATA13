@@ -97,23 +97,43 @@ const LocalData =[
 </script>
 
 <template>
-  <el-row>
-    <el-col :span="18" :offset="3">
-      <p class="Bold">International Program Committee</p>
-      <el-table :data="InterData" class="Mid">
-        <el-table-column prop="date"   />
-        <el-table-column prop="name" align="right"/>
-      </el-table>
+  <div class="floating-window-label">
+        <span>
+          <img src="../components/icons/label.png" alt="label" />
+        </span>
+  </div>
+  <div class="background-container">
+    <el-row style="margin-bottom: 50%"></el-row>
       <el-row>
-        <el-col :span="24"><div class="null-content"/></el-col>
+        <el-col :span="3" style="background-color: white ;opacity:0.7;"/>
+        <el-col :span="18" style="background-color: white ;opacity:0.7;">
+          <p class="Bold">International Program Committee</p>
+          <el-table :data="InterData" class="Mid">
+            <el-table-column prop="date"   />
+            <el-table-column prop="name" align="right"/>
+          </el-table>
+          <el-row>
+            <el-col :span="24"><div class="null-content"/></el-col>
+          </el-row>
+          <p class="Bold">Local Organizing Committee</p>
+          <el-table :data="LocalData" class="Mid">
+            <el-table-column prop="date"/>
+            <el-table-column prop="name" align="right" />
+          </el-table>
+        </el-col>
+        <el-col :span="3" style="background-color: white ;opacity:0.7;"/>
+
       </el-row>
-      <p class="Bold">Local Organizing Committee</p>
-      <el-table :data="LocalData" class="Mid">
-        <el-table-column prop="date"/>
-        <el-table-column prop="name" align="right" />
-      </el-table>
-    </el-col>
-  </el-row>
+  </div>
+
+<!--  <el-row>-->
+<!--    <el-col :span="24">-->
+<!--      <div >-->
+<!--        <img src="src/components/icons/NWNU.webp" style="width: 100%;z-index: -1" alt=""/>-->
+<!--      </div>-->
+<!--    </el-col>-->
+<!--  </el-row>-->
+
 
 </template>
 
@@ -129,6 +149,7 @@ const LocalData =[
   font-size:16pt;
   font-weight: bold;
   font-family:"微软雅黑",serif;
+  opacity:0.7;
   //font-family:"Helvetica Neue",
   //sans-serif;
 }
@@ -138,8 +159,32 @@ const LocalData =[
 //text-justify:inter-ideograph;
   font-size:14pt;
   font-family:"微软雅黑 Light",serif;
+  opacity:0.7;
   //font-weight: bold;
   //font-family:"Helvetica Neue",
   //sans-serif;
 }
+.floating-window-label{
+  position:absolute;
+  top:400px;
+  right:50px;
+  z-index: 2;
+  opacity:0.7;
+}
+.background-container {
+  background-image: url('src/components/icons/NWNU.webp'); /* 指定背景图片的URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+
+.content {
+  /* 样式用于页面内容，可根据需求自行设置 */
+  text-align: center;
+  padding: 20px;
+}
 </style>
+
