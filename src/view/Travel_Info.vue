@@ -22,8 +22,23 @@
 </script>
 
 <template>
-  <el-row style="margin-bottom: 3%; margin-top: 3%">
-    <el-col :span="18" :offset="3">
+  <div class="floating-window-label">
+        <span>
+          <img src="../components/icons/label.png" alt="label" />
+        </span>
+  </div>
+  <el-row style="margin-bottom: 36%" >
+    <el-col :span="24">
+      <div>
+        <img src="src/components/icons/img_3.png" style="z-index: -1;width: 99%;position: fixed" alt="airport"/>
+      </div>
+    </el-col>
+  </el-row>
+
+  <el-row style="background-color: white ;opacity:0.85;">
+
+  <el-row style="margin-bottom: 3%; margin-top: 3%;">
+    <el-col :span="18" :offset="3" style="background-color: white ;opacity:0.85;">
       <h2 class="label">How to Reach Lanzhou</h2>
       <b/>
       <p class="namoral">The closest airport is the Lanzhou Zhongchuan International Airport (IATA Code：LHW), located at approximately 56 km Northwest from the Northwest Normal University. The airport is connected by domestic flights to the international airports of Beijing, Shanghai, Xian, Guangzhou and some other cities.</p>
@@ -44,11 +59,12 @@
     <el-divider/>
   </el-col>
 </el-row>
+  </el-row>
 
-  <el-row>
-    <el-col :span="20" :offset="2">
-      <p align="center">Shuttle Bus Time Table</p>
-      <el-table :data="Data" class="label" border :show-header="false" :size="'large'">
+  <el-row style="background-color: white ;opacity:0.85;">
+    <el-col :span="20" :offset="2" style="margin-top: 5%">
+      <p style="text-align: center;font-size: 16pt;">Shuttle Bus Time Table</p>
+      <el-table stripe :data="Data" class="label" border :show-header="false" :size="'large'">
         <el-table-column prop="d1"/>
         <el-table-column prop="d2"/>
         <el-table-column prop="d3"/>
@@ -60,7 +76,6 @@
     </el-col>
 
   </el-row>
-
 </template>
 
 <style scoped>
@@ -68,7 +83,7 @@
 {
   margin:5px;
   font-size:13pt;
-  font-family:"微软雅黑 Light",sans-serif;
+  font-family:"微软雅黑",sans-serif;
 }
 .label
 {
@@ -76,5 +91,12 @@
   font-size:18pt;
   font-weight: bold;
   font-family:"微软雅黑",sans-serif;
+}
+.floating-window-label{
+  position:absolute;
+  top:300px;
+  right:50px;
+  z-index: 2;
+  opacity:0.7;
 }
 </style>

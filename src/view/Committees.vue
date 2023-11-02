@@ -102,17 +102,16 @@ const LocalData =[
           <img src="../components/icons/label.png" alt="label" />
         </span>
   </div>
-<!--  <div class="background-container">-->
-    <el-row style="margin-bottom: 35%">
-      <el-col :span="24">
+    <el-row style="margin-bottom: 36%">
+      <el-col :span="24" >
         <div>
           <img src="src/components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
         </div>
       </el-col>
     </el-row>
-      <el-row>
-        <el-col :span="3" style="background-color: white ;opacity:0.85;"/>
-        <el-col :span="18" style="background-color: white ;opacity:0.85;">
+      <el-row style="background-color: white ;opacity:0.85;">
+        <el-col :span="3" style="background-color: white ;opacity:0.85;margin-top: 1%"/>
+        <el-col :span="18" style="background-color: white ;opacity:0.85;margin-top: 1%">
           <p class="Bold">International Program Committee</p>
           <el-table :data="InterData" class="Mid">
             <el-table-column prop="date"   />
@@ -127,18 +126,9 @@ const LocalData =[
             <el-table-column prop="name" align="right" />
           </el-table>
         </el-col>
-        <el-col :span="3" style="background-color: white ;opacity:0.85;"/>
+        <el-col :span="3" style="background-color: white ;opacity:0.85;margin-top: 1%"/>
 
       </el-row>
-<!--  </div>-->
-
-<!--  <el-row>-->
-<!--    <el-col :span="24">-->
-<!--      <div >-->
-<!--        <img src="src/components/icons/NWNU.webp" style="width: 100%;z-index: -1" alt=""/>-->
-<!--      </div>-->
-<!--    </el-col>-->
-<!--  </el-row>-->
 
 
 </template>
@@ -150,28 +140,16 @@ const LocalData =[
 }
 .Bold{
   margin:0;
-//text-align:justify;
-//text-justify:inter-ideograph;
-  font-size:16pt;
+  font-size:18pt;
   font-weight: bold;
   font-family:"微软雅黑",serif;
-  color: #7c1818;
-  //opacity:0.85;
-  //font-family:"Helvetica Neue",
-  //sans-serif;
+  color: black;
 }
 .Mid{
   margin:0;
-//text-align:justify;
-//text-justify:inter-ideograph;
   font-size:14pt;
-  color: #9f1e1e;
-
-  font-family:"微软雅黑 Light",serif;
-  //opacity:0.85;
-  //font-weight: bold;
-  //font-family:"Helvetica Neue",
-  //sans-serif;
+  color: black;
+  font-family:"微软雅黑",serif;
 }
 .floating-window-label{
   position:absolute;

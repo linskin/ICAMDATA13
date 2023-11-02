@@ -3,8 +3,20 @@
 </script>
 
 <template>
-  <el-row>
-    <el-col :span="18" :offset="3">
+  <div class="floating-window-label">
+        <span>
+          <img src="../components/icons/label.png" alt="label" />
+        </span>
+  </div>
+  <el-row style="margin-bottom: 36%">
+    <el-col :span="24">
+      <div>
+        <img src="src/components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
+      </div>
+    </el-col>
+  </el-row>
+  <el-row style="background-color: white ;opacity:0.85;">
+    <el-col :span="18" :offset="3" style="margin-top: 2%">
       <h2 class="label"> 12th ICAMDATA Collection</h2>
       <b/>
       <p class="namoral">Invited speakers and all presenters contributing to the Conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D
@@ -12,7 +24,7 @@
         Guest Editors: C Z Dong, X B Ding, (and others)</p>
     </el-col>
   </el-row>
-    <el-row>
+    <el-row style="background-color: white ;opacity:0.85;">
     <el-col :span="18" :offset="3">
       <el-divider/>
       <h2 class="label">past ICAMDATA Conference Proceedings and Collections</h2>
@@ -44,7 +56,6 @@
         <span><a href="https://projects.iq.harvard.edu/files/icamdata/files/icamdata-abs-final.pdf">contributed abstracts</a></span></p>
       <p class="namoral">2022. Mola di Bari, Italy.<span><a href="https://epjd.epj.org/component/toc/?task=topic&id=1858"> Eur. Phys. J. D (Topical Issue) (2023)</a></span>
         Annarita Laricchiuta, Iouli E. Gordon, Christian Hill, Gianpiero Colonna and Sylwia Ptasinska (Guest editors)</p>
-<!--      <el-divider/>-->
       </el-col>
     </el-row>
 </template>
@@ -54,7 +65,7 @@
 {
   margin:5px;
   font-size:13pt;
-  font-family:"微软雅黑 Light",sans-serif;
+  font-family:"微软雅黑",sans-serif;
 }
 .label
 {
@@ -62,5 +73,12 @@
   font-size:18pt;
   font-weight: bold;
   font-family:"微软雅黑",sans-serif;
+}
+.floating-window-label{
+  position:absolute;
+  top:300px;
+  right:50px;
+  z-index: 2;
+  opacity:0.7;
 }
 </style>
