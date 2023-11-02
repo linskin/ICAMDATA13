@@ -102,11 +102,17 @@ const LocalData =[
           <img src="../components/icons/label.png" alt="label" />
         </span>
   </div>
-  <div class="background-container">
-    <el-row style="margin-bottom: 50%"></el-row>
+<!--  <div class="background-container">-->
+    <el-row style="margin-bottom: 35%">
+      <el-col :span="24">
+        <div>
+          <img src="src/components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
+        </div>
+      </el-col>
+    </el-row>
       <el-row>
-        <el-col :span="3" style="background-color: white ;opacity:0.7;"/>
-        <el-col :span="18" style="background-color: white ;opacity:0.7;">
+        <el-col :span="3" style="background-color: white ;opacity:0.85;"/>
+        <el-col :span="18" style="background-color: white ;opacity:0.85;">
           <p class="Bold">International Program Committee</p>
           <el-table :data="InterData" class="Mid">
             <el-table-column prop="date"   />
@@ -121,10 +127,10 @@ const LocalData =[
             <el-table-column prop="name" align="right" />
           </el-table>
         </el-col>
-        <el-col :span="3" style="background-color: white ;opacity:0.7;"/>
+        <el-col :span="3" style="background-color: white ;opacity:0.85;"/>
 
       </el-row>
-  </div>
+<!--  </div>-->
 
 <!--  <el-row>-->
 <!--    <el-col :span="24">-->
@@ -149,7 +155,8 @@ const LocalData =[
   font-size:16pt;
   font-weight: bold;
   font-family:"微软雅黑",serif;
-  opacity:0.7;
+  color: #7c1818;
+  //opacity:0.85;
   //font-family:"Helvetica Neue",
   //sans-serif;
 }
@@ -158,33 +165,20 @@ const LocalData =[
 //text-align:justify;
 //text-justify:inter-ideograph;
   font-size:14pt;
+  color: #9f1e1e;
+
   font-family:"微软雅黑 Light",serif;
-  opacity:0.7;
+  //opacity:0.85;
   //font-weight: bold;
   //font-family:"Helvetica Neue",
   //sans-serif;
 }
 .floating-window-label{
   position:absolute;
-  top:400px;
+  top:300px;
   right:50px;
   z-index: 2;
   opacity:0.7;
-}
-.background-container {
-  background-image: url('src/components/icons/NWNU.webp'); /* 指定背景图片的URL */
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-.container {
-  width: 100%;
-}
-
-.content {
-  /* 样式用于页面内容，可根据需求自行设置 */
-  text-align: center;
-  padding: 20px;
 }
 </style>
 

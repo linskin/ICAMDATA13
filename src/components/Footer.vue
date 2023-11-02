@@ -1,6 +1,7 @@
 <template>
-  <el-divider class="divider"/>
-  <el-row style="margin-bottom: 50px">
+
+  <el-row style="margin-bottom: 50px;background-color: white ;opacity:0.85;" >
+    <el-divider class="divider"/>
     <el-col :span="16" :offset="4">
       <div>
 <!--        <span>这里插入赞助商logo</span>-->
@@ -28,8 +29,8 @@ export default {
 
 <style scoped>
 .divider{
-  height: 0.08pc;
-  background-color: rgba(0, 0, 0, 0.24);
+  height: 0.1pc;
+  background-color: rgba(0, 0, 0, 0);
 }
 .text{
   background-color: #ffffff;
