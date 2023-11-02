@@ -6,7 +6,7 @@
       <div>
 <!--        <span>这里插入赞助商logo</span>-->
 <!--        <p><span>&nbsp;</span></p>-->
-        <img src="src/components/icons/zanzhushang.png" alt="赞助商" class="img_holder">
+        <img src="./icons/zanzhushang.png" alt="赞助商" class="img_holder">
 <!--        <img src="" alt="" class="img_holder">-->
 <!--        <img src="" alt="" class="img_holder">-->
 <!--        <img src="" alt="" class="img_holder">-->

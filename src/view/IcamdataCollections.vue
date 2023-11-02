@@ -11,7 +11,7 @@
   <el-row style="margin-bottom: 36%">
     <el-col :span="24">
       <div>
-        <img src="src/components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
+        <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
       </div>
     </el-col>
   </el-row>

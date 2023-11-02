@@ -30,7 +30,7 @@
   <el-row style="margin-bottom: 36%" >
     <el-col :span="24">
       <div>
-        <img src="src/components/icons/img_3.png" style="z-index: -1;width: 99%;position: fixed" alt="airport"/>
+        <img src="../components/icons/img_3.png" style="z-index: -1;width: 99%;position: fixed" alt="airport"/>
       </div>
     </el-col>
   </el-row>
