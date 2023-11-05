@@ -37,7 +37,7 @@ const Data = [
 
 <template>
   <el-row style="margin-top: 5%">
-    <el-col :span="20" :offset="2">
+    <el-col :span="14" :offset="5">
       <p style="margin-bottom: 1%;font-weight: bold" class="namoral">Important Date</p>
       <el-table :data="Data" class="namoral" border :show-header="false">
         <el-table-column prop="date"/>
@@ -51,7 +51,8 @@ const Data = [
 .namoral
 {
   margin:5px;
-  font-size:13pt;
-  font-family:"微软雅黑 Light",sans-serif;
+  font-size:15pt;
+  font-family:"微软雅黑",sans-serif;
+  color: black;
 }
 </style>

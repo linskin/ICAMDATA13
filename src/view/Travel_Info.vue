@@ -22,9 +22,9 @@
 </script>
 
 <template>
-  <div class="floating-window-label">
+  <div>
         <span>
-          <img src="../components/icons/label.png" alt="label" />
+          <img src="../components/icons/label.png" alt="label"  class="floating-window-label"/>
         </span>
   </div>
   <el-row style="margin-bottom: 36%" >
@@ -62,7 +62,7 @@
   </el-row>
 
   <el-row style="background-color: white ;opacity:0.85;">
-    <el-col :span="20" :offset="2" style="margin-top: 5%">
+    <el-col :span="14" :offset="5" style="margin-top: 5%">
       <p style="text-align: center;font-size: 16pt;">Shuttle Bus Time Table</p>
       <el-table stripe :data="Data" class="label" border :show-header="false" :size="'large'">
         <el-table-column prop="d1"/>
@@ -94,9 +94,28 @@
 }
 .floating-window-label{
   position:absolute;
-  top:300px;
-  right:50px;
+  top:30%;
+  right:3%;
+  width: 45%;
   z-index: 2;
   opacity:0.7;
+}
+@media (max-width : 1080px) {
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+  h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  p, .p, span, .span{
+    font-size: calc(1rem + 0.9vw);
+  }
+
 }
 </style>

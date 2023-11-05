@@ -15,7 +15,7 @@
       class="mySwiper"
   >
     <swiper-slide><img src="./icons/img.png"  alt=""/></swiper-slide>
-    <swiper-slide><img src="./icons/img_1.png"  alt=""/></swiper-slide>
+    <swiper-slide><img src="./icons/img_1.jpg"  alt=""/></swiper-slide>
     <swiper-slide><img src="./icons/img_2.png"  alt=""/></swiper-slide>
 <!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>-->
 <!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg"  alt=""/></swiper-slide>-->

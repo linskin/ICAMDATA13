@@ -176,10 +176,28 @@ p.normal, li.normal, div.normal
 
 .floating-window-label{
   position:absolute;
-  top:20%;
+  top:30%;
   right:3%;
   width: 45%;
   z-index: 2;
   opacity:0.7;
+}
+@media (max-width : 1080px) {
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+  h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  p, .p, span, .span{
+    font-size: calc(1rem + 0.9vw);
+  }
+
 }
 </style>

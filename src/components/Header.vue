@@ -23,10 +23,10 @@
 
       <el-sub-menu index="3">
         <template #title><span class="text">VENUE</span></template>
-        <el-menu-item index="/GanSuProvince" disabled><span class="text">GANSU PROVINCE</span></el-menu-item>
-        <el-menu-item index="/Lanzhou" disabled><span class="text">LAN ZHOU</span></el-menu-item>
-        <el-menu-item index="/Northwest_Normal_University" disabled><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
-        <el-menu-item index="/Accommodation" disabled><span class="text">ACCOMMODATION</span></el-menu-item>
+        <el-menu-item index="/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>
+        <el-menu-item index="/Lanzhou" ><span class="text">LAN ZHOU</span></el-menu-item>
+        <el-menu-item index="/Northwest_Normal_University" ><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
+        <el-menu-item index="/Accommodation" ><span class="text">ACCOMMODATION</span></el-menu-item>
         <el-menu-item index="/Travel_Info"><span class="text">TRAVEL INFO</span></el-menu-item>
       </el-sub-menu>
 
