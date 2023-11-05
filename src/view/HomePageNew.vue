@@ -11,9 +11,9 @@
       </div>
 
 
-      <div class="floating-window-label">
+      <div >
         <span>
-          <img src="../components/icons/label.png" alt="label" />
+          <img src="../components/icons/label.png" alt="label" class="floating-window-label"/>
         </span>
       </div>
 
@@ -161,9 +161,9 @@ p.normal, li.normal, div.normal
 
 .floating-window{
   position:absolute;
-  top:420px;
-  left:50px;
-  max-width:40%;
+  top:40%;
+  left:5%;
+  width:20%;
   background-color:#ffffff;
   text-align: justify;
   padding:20px 20px 20px;
@@ -176,8 +176,9 @@ p.normal, li.normal, div.normal
 
 .floating-window-label{
   position:absolute;
-  top:230px;
-  right:50px;
+  top:20%;
+  right:3%;
+  width: 45%;
   z-index: 2;
   opacity:0.7;
 }
