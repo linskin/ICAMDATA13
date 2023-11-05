@@ -97,21 +97,22 @@ const LocalData =[
 </script>
 
 <template>
-  <div >
+
+    <el-row style="margin-bottom: 36%">
+      <el-col :span="24.0" >
+        <div >
         <span>
           <img src="../components/icons/label.png" alt="label" class="floating-window-label"/>
         </span>
-  </div>
-    <el-row style="margin-bottom: 36%">
-      <el-col :span="24.0" >
+        </div>
         <div>
           <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
         </div>
       </el-col>
     </el-row>
-      <el-row style="background-color: white ;opacity:0.85;">
-<!--        <el-col :span="4" style="background-color: white ;opacity:0.85;margin-top: 1%"/>-->
-        <el-col :span="14" style="background-color: white ;opacity:0.85;margin-top: 1%" :offset="4">
+      <el-row style="background-color: white ;opacity:0.95;">
+<!--        <el-col :span="4" style="background-color: white ;opacity:0.95;margin-top: 1%"/>-->
+        <el-col :span="14" style="background-color: white ;opacity:0.95;margin-top: 1%" :offset="5">
           <p class="Bold">International Program Committee</p>
           <el-table :data="InterData" class="Mid">
             <el-table-column prop="date"   />
@@ -126,7 +127,7 @@ const LocalData =[
             <el-table-column prop="name" align="right" />
           </el-table>
         </el-col>
-        <el-col :span="3" style="background-color: white ;opacity:0.85;margin-top: 1%"/>
+        <el-col :span="3" style="background-color: white ;opacity:0.95;margin-top: 1%"/>
 
       </el-row>
 
@@ -159,23 +160,13 @@ const LocalData =[
   z-index: 2;
   opacity:0.7;
 }
-@media (max-width : 1080px) {
-  h1, .h1 {
-    font-size: calc(1.375rem + 1.5vw);
+@media (max-width : 1500px) {
+  .Bold{
+    font-size:16pt;
   }
-  h2, .h2 {
-    font-size: calc(1.325rem + 0.9vw);
+  .Mid{
+    font-size:14pt;
   }
-  h3, .h3 {
-    font-size: calc(1.3rem + 0.6vw);
-  }
-  h4, .h4 {
-    font-size: calc(1.275rem + 0.3vw);
-  }
-  p, .p, span, .span{
-    font-size: calc(1rem + 0.9vw);
-  }
-
 }
 </style>
 

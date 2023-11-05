@@ -1,31 +1,25 @@
 
 <template>
   <swiper
-      :space-between="30"
+      :space-between="0"
       :effect="'fade'"
       :pagination="{
       dynamicBullets: false,
     }"
       :navigation = "false"
       :autoplay="{
-        delay: 2000,
+        delay: 4000,
         disableOnInteraction:true
       }"
       :modules="modules"
       class="mySwiper"
   >
-    <swiper-slide><img src="./icons/img.png"  alt=""/></swiper-slide>
-    <swiper-slide><img src="./icons/img_1.jpg"  alt=""/></swiper-slide>
-    <swiper-slide><img src="./icons/img_2.png"  alt=""/></swiper-slide>
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-2.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-2.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt=""/></swiper-slide>-->
-<!--    <swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt=""/></swiper-slide>-->
+<!--    <swiper-slide><img src="./icons/img.png"  alt="" class="img_holder"/></swiper-slide>-->
+    <swiper-slide><img src="./icons/baitashi2.png"  alt="" class="img_holder"/></swiper-slide>
+    <swiper-slide><img src="./icons/maijisan.jpg"  alt="" class="img_holder"/></swiper-slide>
+    <swiper-slide><img src="./icons/dunhuang.jpg"  alt="" class="img_holder"/></swiper-slide>
+    <swiper-slide><img src="./icons/img_6.png"  alt="" class="img_holder"/></swiper-slide>
+    <swiper-slide><img src="./icons/gannancaoyuan.png"  alt="" class="img_holder"/></swiper-slide>
   </swiper>
 </template>
 
@@ -57,10 +51,10 @@ export default {
 </script>
 <style>
 .mySwiper{
-  //position: relative;
-  //left:0px;
-  //width: 100%;
-  //height: 100vh;
-  height: 700px;
+}
+.img_holder{
+  margin: 10px;
+//background-color: #181818;
+  width:100%;
 }
 </style>

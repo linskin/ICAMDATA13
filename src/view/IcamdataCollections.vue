@@ -17,10 +17,10 @@
   </el-row>
   <el-row style="background-color: white ;opacity:0.85;">
     <el-col :span="18" :offset="3" style="margin-top: 2%">
-      <h2 class="label"> 12th ICAMDATA Collection</h2>
+      <h2 class="label"> 13th ICAMDATA Collection</h2>
       <b/>
       <p class="namoral">Invited speakers and all presenters contributing to the Conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D
-        Atomic and Molecular Data and Their Applications: ICAMDATA2022
+        Atomic and Molecular Data and Their Applications: ICAMDATA2024
         Guest Editors: C Z Dong, X B Ding, (and others)</p>
     </el-col>
   </el-row>
@@ -76,28 +76,19 @@
 }
 .floating-window-label{
   position:absolute;
-  top:30%;
+  top:25%;
   right:3%;
   width: 45%;
   z-index: 2;
   opacity:0.7;
 }
-@media (max-width : 1080px) {
-  h1, .h1 {
-    font-size: calc(1.375rem + 1.5vw);
-  }
-  h2, .h2 {
-    font-size: calc(1.325rem + 0.9vw);
-  }
-  h3, .h3 {
-    font-size: calc(1.3rem + 0.6vw);
-  }
-  h4, .h4 {
-    font-size: calc(1.275rem + 0.3vw);
-  }
-  p, .p, span, .span{
-    font-size: calc(1rem + 0.9vw);
-  }
+@media (max-width : 1500px) {
+.namoral{
+  font-size: 14pt
 
+}
+  .label{
+    font-size: 16pt;
+  }
 }
 </style>

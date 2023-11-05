@@ -1,18 +1,10 @@
 <template>
 
-  <el-row style="margin-bottom: 50px;background-color: white ;opacity:0.85;" >
+  <el-row style="background-color: white ;opacity:0.85;" >
     <el-divider class="divider"/>
-    <el-col :span="16" :offset="4">
+    <el-col :span="18" :offset="3">
       <div>
-<!--        <span>这里插入赞助商logo</span>-->
-<!--        <p><span>&nbsp;</span></p>-->
         <img src="./icons/zanzhushang.png" alt="赞助商" class="img_holder">
-<!--        <img src="" alt="" class="img_holder">-->
-<!--        <img src="" alt="" class="img_holder">-->
-<!--        <img src="" alt="" class="img_holder">-->
-<!--        <img src="" alt="" class="img_holder">-->
-<!--        <img src="" alt="" class="img_holder">-->
-<!--        <img src="" alt="" class="img_holder">-->
       </div>
     </el-col>
   </el-row>
@@ -54,10 +46,8 @@ p.Mid, li.Mid, div.Mid
   font-family:"Helvetica Neue",sans-serif;
 }
 .img_holder{
-  margin: 10px;
-  //background-color: #181818;
+  //margin: 1%;
   width: 100%;
-  height: 100%;
 }
 
 </style>

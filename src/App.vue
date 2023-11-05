@@ -7,7 +7,7 @@ import Footer from "@/components/Footer.vue";
 <template>
   <div class="horizontal-full">
     <el-header><Header class="header"></Header></el-header>
-    <el-main ><router-view/></el-main>
+    <el-main class="dibr"><router-view/></el-main>
     <el-footer><Footer/></el-footer>
   </div>
 </template>
@@ -51,5 +51,8 @@ import Footer from "@/components/Footer.vue";
   background-color: #ffffff;
   height: 100%; /* 设置高度为100%以占据整个可滚动区域 */
   overflow-y: auto; /* 允许垂直滚动 */
+}
+.dibr{
+  overflow-y: hidden;
 }
 </style>

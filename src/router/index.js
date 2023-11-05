@@ -15,10 +15,11 @@ import IcamdataCollections from "@/view/IcamdataCollections.vue";
 import PosterSession from "@/view/PosterSession.vue";
 import SatelliteMeeting from "@/view/SatelliteMeeting.vue";
 import Schdule from "@/view/Schdule.vue";
-import Tour from "@/view/Tour.vue";
+// import Tour from "@/view/Tour.vue";
 import InvitedSpeakers from "@/view/InvitedSpeakers.vue";
 import LogIn from "@/view/LogIn.vue";
 import LogUp from "@/view/LogUp.vue";
+import DateBaseNew from "@/view/DateBaseNew.vue";
 // import ICAMDATACHAPTER from "https://physics.nist.gov/Icamdata/Homepage/charter.html"
 
 
@@ -43,10 +44,11 @@ const routes = [
             { path: '/PosterSession',component: PosterSession},
             { path: '/SatelliteMeeting',component: SatelliteMeeting},
             { path: '/Schdule',component: Schdule},
-            { path: '/Tour',component: Tour},
+            // { path: '/Tour',component: Tour},
             { path: '/InvitedSpeakers',component: InvitedSpeakers},
             { path: '/LogIn',component: LogIn},
             { path: '/LogUp',component: LogUp},
+            { path: '/DateBaseNew',component: DateBaseNew},
             // { path: '/ICAMDATACHAPTER',component: Travel_Info},
         ],
     },

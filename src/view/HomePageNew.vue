@@ -1,33 +1,34 @@
 <template>
 
-      <div class="floating-window">
-        credits<br>
-        <table><tbody>
-        <tr><td><i>new</i> Harbour </td><td align="right"> (Vincenzo Lombardo) </td></tr>
-        <tr><td>Roberti Palace </td><td align="right"> (SabinoG.Photo) </td></tr>
-        <tr><td>Loreto Church </td><td align="right"> (Vincenzo Lombardo) </td></tr>
-        <tr><td>Angioino Castle </td><td align="right"> (photogallery of GAL SudEst Barese) </td></tr>
-        </tbody></table>
-      </div>
+<!--      <div class="floating-window">-->
+<!--        credits<br>-->
+<!--        <table><tbody>-->
+<!--        <tr><td><i>new</i> Harbour </td><td align="right"> (Vincenzo Lombardo) </td></tr>-->
+<!--        <tr><td>Roberti Palace </td><td align="right"> (SabinoG.Photo) </td></tr>-->
+<!--        <tr><td>Loreto Church </td><td align="right"> (Vincenzo Lombardo) </td></tr>-->
+<!--        <tr><td>Angioino Castle </td><td align="right"> (photogallery of GAL SudEst Barese) </td></tr>-->
+<!--        </tbody></table>-->
+<!--      </div>-->
 
 
-      <div >
+
+
+
+    <el-row style="z-index: -9;max-height: 40vw">
+      <el-col :span="24">
+        <div >
         <span>
           <img src="../components/icons/label.png" alt="label" class="floating-window-label"/>
         </span>
-      </div>
-
-
-    <el-row>
-      <el-col :span="24">
+        </div>
         <div>
           <ImageSlider class="Image_full"/>
         </div>
       </el-col>
-    </el-row>
+    </el-row>vh
 
-    <el-row style="margin-top: 90px">
-      <el-col :span="18" :offset="3">
+    <el-row style="margin-top: -3%;background-color: white ;opacity:0.85;width: inherit; height: fit-content" >
+      <el-col :span="18" :offset="3" style="margin-top: 2%;">
         <div class=" namoral-board">
           <p class=Mid  style='text-align:left'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span></p>
 
@@ -77,7 +78,7 @@
         </div>
       </el-col>
     </el-row>
-  <el-row style="margin-top: 90px">
+  <el-row style="margin-top: 1%;width: inherit; height: fit-content">
     <el-col :span="20" :offset="2">
       <div class="text Mid">
       <p class=normal  style='text-align:left'><span lang=EN-US>The scientific programme will include invited and contributed talks in the regular sessions, a poster session and special sessions devoted to uncertainty quantification and database demonstrations.</span></p>
@@ -157,22 +158,20 @@ p.normal, li.normal, div.normal
   font-family:"微软雅黑 Light",sans-serif;
 
 }
-
-
-.floating-window{
-  position:absolute;
-  top:40%;
-  left:5%;
-  width:20%;
-  background-color:#ffffff;
-  text-align: justify;
-  padding:20px 20px 20px;
-  font-size:80%;
-  z-index: 2;
-  opacity:0.7;
-  animation:caption 1s;
-  -webkit-animation:caption 1s
-}
+/*//.floating-window{
+//  position:absolute;
+//  top:40%;
+//  left:5%;
+//  width:20%;
+//  background-color:#ffffff;
+//  text-align: justify;
+//  padding:20px 20px 20px;
+//  font-size:80%;
+//  z-index: 2;
+//  opacity:0.7;
+//  animation:caption 1s;
+//  -webkit-animation:caption 1s
+//}*/
 
 .floating-window-label{
   position:absolute;
@@ -182,22 +181,21 @@ p.normal, li.normal, div.normal
   z-index: 2;
   opacity:0.7;
 }
-@media (max-width : 1080px) {
-  h1, .h1 {
-    font-size: calc(1.375rem + 1.5vw);
+@media (max-width : 1500px) {
+  p.Mid, li.Mid, div.Mid{
+    font-size: 17px;
   }
-  h2, .h2 {
-    font-size: calc(1.325rem + 0.9vw);
+  p.normal, li.normal, div.normal{
+    font-size: 14px;
   }
-  h3, .h3 {
-    font-size: calc(1.3rem + 0.6vw);
+  p.Bold, li.Bold, div.Bold{
+    font-size: 18px;
   }
-  h4, .h4 {
-    font-size: calc(1.275rem + 0.3vw);
+  .fit1{
+    height: 600px;
   }
-  p, .p, span, .span{
-    font-size: calc(1rem + 0.9vw);
+  .fit2{
+    height: 200px;
   }
-
 }
 </style>

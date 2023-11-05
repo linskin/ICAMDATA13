@@ -55,4 +55,9 @@ const Data = [
   font-family:"微软雅黑",sans-serif;
   color: black;
 }
+@media (max-width: 1500px) {
+  .namoral{
+    font-size: 15px;
+  }
+}
 </style>

@@ -12,7 +12,7 @@
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider_accommodation class="Image_full"/>
         <div style="padding: 3%">
-          <span style="align-content: center">International Academic Exchange Center</span>
+          <span class="normal">International Academic Exchange Center</span>
         </div>
       </el-card>
     </el-col>
@@ -50,13 +50,18 @@
 }
 .normal {
   margin:0;
-  font-size:15pt;
-  font-family:"微软雅黑",sans-serif;
+  font-size:19pt;
+  font-family:"微软雅黑 Light",sans-serif;
 
 }
 .Image_full{
   width: inherit;
   height: fit-content;
+}
+@media (max-width: 1500px) {
+  .normal{
+    font-size: 15px;
+  }
 }
 </style>
 <script setup>

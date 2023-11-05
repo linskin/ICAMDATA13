@@ -6,12 +6,12 @@
     </el-col>
   </el-row>
 
-  <el-row style="margin-bottom: 10%" class="namoral">
+  <el-row style="margin-bottom: 5%" class="namoral">
     <el-col :span="8" :offset="2">
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
-        <ImageSlider class="Image_full"/>
+        <img src="../components/icons/img.png" alt="" style="width: 100%">
         <div style="padding: 14px">
-          <span style="align-content: center">Map of Gansu Province</span>
+          <span style="align-content: center">North Gate of the School</span>
         </div>
       </el-card>
     </el-col>
@@ -23,9 +23,9 @@
   <el-row style="margin-bottom: 10%" class="namoral">
     <el-col :span="8" :offset="2">
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
-        <ImageSlider class="Image_full"/>
+        <img src="../components/icons/tsg.jpg" alt="">
         <div style="padding: 14px">
-          <span style="align-content: center">Map of Gansu Province</span>
+          <span style="align-content: center">New Campus Library</span>
         </div>
       </el-card>
     </el-col>
@@ -48,9 +48,6 @@ const currentDate = ref(new Date())
 </script>
 
 <style scoped>
-.Image_full{
-  width: inherit;
-}
 .el-row {
   margin-bottom: 20px;
 }
@@ -89,8 +86,13 @@ const currentDate = ref(new Date())
 }
 .namoral
 {
-  margin:5px;
-  font-size:13pt;
+  margin-inline:5px;
+  font-size:18pt;
   font-family:"微软雅黑 Light",sans-serif;
+}
+@media (max-width: 1500px) {
+  .namoral{
+    font-size: 15px;
+  }
 }
 </style>

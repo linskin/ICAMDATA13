@@ -2,7 +2,7 @@
     <el-menu
         :ellipsis="true"
         mode="horizontal"
-        style="width: 100%"
+        style="width: 100%;"
         router>
       <el-menu-item><span class="text">13TH ICAMDATA</span></el-menu-item>
 
@@ -12,12 +12,12 @@
 
       <el-sub-menu>
         <template #title><span class="text">PROGRAMME</span></template>
-        <el-menu-item index="/InvitedSpeakers" disabled><span class="text">INVITED SPEAKERS</span></el-menu-item>
-        <el-menu-item index="/DataBase"><span class="text">DATABASE</span></el-menu-item>
-        <el-menu-item index="/Schdule" disabled><span class="text">SCHDULE</span></el-menu-item>
-        <el-menu-item index="/PosterSession" disabled><span class="text">POSTER SESSION</span></el-menu-item>
-        <el-menu-item index="/BestPosterAwards" disabled><span class="text">BEST POSTER AWARDS（*）</span></el-menu-item>
-        <el-menu-item index="/SatelliteMeeting" disabled><span class="text">SATELLITE MEETING</span></el-menu-item>
+        <el-menu-item index="/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>
+        <el-menu-item index="/DateBaseNew"><span class="text">DATABASE</span></el-menu-item>
+        <el-menu-item index="/Schdule" ><span class="text">SCHDULE</span></el-menu-item>
+        <el-menu-item index="/PosterSession" ><span class="text">POSTER SESSION</span></el-menu-item>
+        <el-menu-item index="/BestPosterAwards" ><span class="text">BEST POSTER AWARDS（*）</span></el-menu-item>
+        <el-menu-item index="/SatelliteMeeting" ><span class="text">SATELLITE MEETING</span></el-menu-item>
         <el-menu-item index="/IcamdataCollections"><span class="text">ICAMDATA COLLECTIONS</span></el-menu-item>
       </el-sub-menu>
 
@@ -42,7 +42,7 @@
 
       <el-menu-item index="/LogIn" disabled><span class="text">LOG IN</span></el-menu-item>
 
-      <el-menu-item index="/LogUp" disabled><span class="text">LOG UP</span></el-menu-item>
+<!--      <el-menu-item index="/LogUp" ><span class="text">LOG UP</span></el-menu-item>-->
     </el-menu>
 </template>
 <script>
@@ -65,4 +65,10 @@ const open = () => {
 .text{
 font-size: 16px;
 }
+@media (max-width: 1080px) {
+  .text{
+    font-size: 13px;
+  }
+}
+
 </style>

@@ -22,15 +22,16 @@
 </script>
 
 <template>
-  <div>
-        <span>
-          <img src="../components/icons/label.png" alt="label"  class="floating-window-label"/>
-        </span>
-  </div>
+
   <el-row style="margin-bottom: 36%" >
     <el-col :span="24">
       <div>
-        <img src="../components/icons/img_3.png" style="z-index: -1;width: 99%;position: fixed" alt="airport"/>
+        <span>
+          <img src="../components/icons/label.png" alt="label"  class="floating-window-label"/>
+        </span>
+      </div>
+      <div>
+        <img src="../components/icons/jichang.jpeg" style="z-index: -1;width: 99%;position: fixed" alt="airport"/>
       </div>
     </el-col>
   </el-row>
@@ -94,13 +95,13 @@
 }
 .floating-window-label{
   position:absolute;
-  top:30%;
+  top:50%;
   right:3%;
   width: 45%;
   z-index: 2;
   opacity:0.7;
 }
-@media (max-width : 1080px) {
+@media (max-width : 1500px) {
   h1, .h1 {
     font-size: calc(1.375rem + 1.5vw);
   }

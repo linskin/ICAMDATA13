@@ -36,7 +36,6 @@
   </el-row>
 
   <el-row style="line-height: 100px">
-
     <el-col :span="9" :offset="12">
       <p>LISA Lisbon Atomic Database</p>
     </el-col>
@@ -53,8 +52,6 @@
   </el-row>
 
   <el-row>
-
-
     <el-col :span="9" :offset="12">
       <img src="../components/icons/MCCC.png"/>
       <b/>
