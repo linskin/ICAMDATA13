@@ -54,5 +54,9 @@ import Footer from "@/components/Footer.vue";
 }
 .dibr{
   overflow-y: hidden;
+
+}
+@media (max-width: 600px){
+  overflow-y: auto;
 }
 </style>

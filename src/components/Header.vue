@@ -12,22 +12,22 @@
 
       <el-sub-menu>
         <template #title><span class="text">PROGRAMME</span></template>
-        <el-menu-item index="/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>
-        <el-menu-item index="/DateBaseNew"><span class="text">DATABASE</span></el-menu-item>
-        <el-menu-item index="/Schdule" ><span class="text">SCHDULE</span></el-menu-item>
-        <el-menu-item index="/PosterSession" ><span class="text">POSTER SESSION</span></el-menu-item>
-        <el-menu-item index="/BestPosterAwards" ><span class="text">BEST POSTER AWARDS（*）</span></el-menu-item>
-        <el-menu-item index="/SatelliteMeeting" ><span class="text">SATELLITE MEETING</span></el-menu-item>
-        <el-menu-item index="/IcamdataCollections"><span class="text">ICAMDATA COLLECTIONS</span></el-menu-item>
+        <el-menu-item index="/Programme/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>
+        <el-menu-item index="/Programme/DateBaseNew"><span class="text">DATABASE</span></el-menu-item>
+        <el-menu-item index="/Programme/Schdule" ><span class="text">SCHEDULE</span></el-menu-item>
+        <el-menu-item index="/Programme/PosterSession" ><span class="text">POSTER SESSION</span></el-menu-item>
+        <el-menu-item index="/Programme/BestPosterAwards" ><span class="text">BEST POSTER AWARDS（*）</span></el-menu-item>
+        <el-menu-item index="/Programme/SatelliteMeeting" ><span class="text">SATELLITE MEETING</span></el-menu-item>
+        <el-menu-item index="/Programme/IcamdataCollections"><span class="text">ICAMDATA COLLECTIONS</span></el-menu-item>
       </el-sub-menu>
 
       <el-sub-menu index="3">
         <template #title><span class="text">VENUE</span></template>
-        <el-menu-item index="/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>
-        <el-menu-item index="/Lanzhou" ><span class="text">LAN ZHOU</span></el-menu-item>
-        <el-menu-item index="/Northwest_Normal_University" ><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
-        <el-menu-item index="/Accommodation" ><span class="text">ACCOMMODATION</span></el-menu-item>
-        <el-menu-item index="/Travel_Info"><span class="text">TRAVEL INFO</span></el-menu-item>
+        <el-menu-item index="/VENUE/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>
+        <el-menu-item index="/VENUE/Lanzhou" ><span class="text">LAN ZHOU</span></el-menu-item>
+        <el-menu-item index="/VENUE/Northwest_Normal_University" ><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
+        <el-menu-item index="/VENUE/Accommodation" ><span class="text">ACCOMMODATION</span></el-menu-item>
+        <el-menu-item index="/VENUE/Travel_Info"><span class="text">TRAVEL INFO</span></el-menu-item>
       </el-sub-menu>
 
       <el-menu-item index="/Registration"><span class="text">REGISTRATION</span></el-menu-item>
