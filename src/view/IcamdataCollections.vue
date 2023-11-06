@@ -66,7 +66,7 @@
 <style scoped>
 .namoral
 {
-  margin:5px;
+  margin:2vh;
   font-size:13pt;
   font-family:"微软雅黑",sans-serif;
 }
@@ -94,4 +94,5 @@
     font-size: 16pt;
   }
 }
+p{}
 </style>

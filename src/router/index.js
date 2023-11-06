@@ -31,28 +31,14 @@ const routes = [
         name:'ICAMDATA',
         redirect:"/HomePageNew",
         children: [
-            {path: 'VENUE',component: VENUE},
-            {path: 'Programme',component: Programme,},
+            { path: 'VENUE',component: VENUE},
+            { path: 'Programme',component: Programme,},
             { path: '', component: HomePageNew },
             { path:'HOME',component: HomePageNew},
             { path: 'DataTime',component: DataTime},
-            // { path: '/Accommodation',component: Accommodation},
             { path: 'Committees',component: Committees},
-            // { path: '/Lanzhou',component: Lanzhou},
-            // { path: '/Northwest_Normal_University',component: Northwest_Normal_University},
             { path: 'Registration',component: Registration},
-            // { path: '/Travel_Info',component: Travel_Info},
-            // { path: '/BestPosterAwards',component: BestPosterAwards},
-            // { path: '/DataBase',component: DataBase},
-            // { path: '/GanSuProvince',component: GanSuProvince},
-            // { path: '/IcamdataCollections',component: IcamdataCollections},
-            // { path: '/PosterSession',component: PosterSession},
-            // { path: '/SatelliteMeeting',component: SatelliteMeeting},
-            // { path: '/Schdule',component: Schdule},
-            // { path: '/InvitedSpeakers',component: InvitedSpeakers},
-            // { path: '/LogIn',component: LogIn},
-            // { path: '/LogUp',component: LogUp},
-            // { path: '/DateBaseNew',component: DateBaseNew},
+
         ],
 
     },
@@ -82,8 +68,7 @@ const routes = [
 
 const router= createRouter({
     // 4. 采用hash 模式
-    history:
-        createWebHistory(),
+    history: createWebHashHistory(),
     // 采用 history 模式
     // history: createWebHistory(),
     routes, //使用上方定义的路由配置

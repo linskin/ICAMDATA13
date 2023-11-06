@@ -7,7 +7,7 @@ import Footer from "@/components/Footer.vue";
 <template>
   <div class="horizontal-full">
     <el-header><Header class="header"></Header></el-header>
-    <el-main class="dibr"><router-view/></el-main>
+    <el-main class="dibr"><router-view></router-view></el-main>
     <el-footer><Footer/></el-footer>
   </div>
 </template>
