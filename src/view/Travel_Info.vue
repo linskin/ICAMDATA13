@@ -22,6 +22,7 @@
 </script>
 
 <template>
+  <div style="padding-left: 10vw;padding-right: 10vw">
 
   <el-row style="margin-bottom: 36%" >
     <el-col :span="24">
@@ -31,7 +32,7 @@
         </span>
       </div>
       <div>
-        <img src="../components/icons/jichang.jpeg" style="z-index: -1;width: 99%;position: fixed" alt="airport"/>
+        <img src="../components/icons/jichang.jpeg" style="z-index: -1;width: 78vw;position: fixed" alt="airport"/>
       </div>
     </el-col>
   </el-row>
@@ -77,6 +78,7 @@
     </el-col>
 
   </el-row>
+  </div>
 </template>
 
 <style scoped>

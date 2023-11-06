@@ -4,7 +4,7 @@
     <el-divider class="divider"/>
     <el-col :span="18" :offset="3">
       <div>
-        <img src="./icons/zanzhushang.png" alt="赞助商" class="img_holder">
+        <img src="./icons/foot.jpg" alt="赞助商" class="img_holder">
       </div>
     </el-col>
   </el-row>

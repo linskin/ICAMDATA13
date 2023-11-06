@@ -1,5 +1,5 @@
 <template>
-<!--  <ImageSlider class="Image_full"/>/////////////-->
+  <div style="padding-left: 10vw;padding-right: 10vw">
   <el-row>
     <el-col :offset="2" :span="20">
       <h1>Gansu</h1>
@@ -61,6 +61,7 @@
       </div>
     </el-col>
   </el-row>
+    </div>
 </template>
 
 <script>

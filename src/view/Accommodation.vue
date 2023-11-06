@@ -1,6 +1,8 @@
 <template>
+  <div style="padding-left: 10vw;padding-right: 10vw">
+
   <el-row>
-    <el-col :span="8" :offset="3">
+    <el-col :span="8" :offset="2">
       <div>
         <h1>Accommodation</h1>
         <p class=Mid  style='text-align:left'><span lang=EN-US>&nbsp;</span></p>
@@ -37,6 +39,7 @@
       </el-row>
     </el-col>
   </el-row>
+  </div>
 </template>
 
 

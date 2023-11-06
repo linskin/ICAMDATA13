@@ -97,7 +97,7 @@ const LocalData =[
 </script>
 
 <template>
-
+  <div style="padding-right: 10vw;padding-left: 10vw">
     <el-row style="margin-bottom: 36%">
       <el-col :span="24.0" >
         <div >
@@ -106,7 +106,7 @@ const LocalData =[
         </span>
         </div>
         <div>
-          <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
+          <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 79vw;position: fixed" alt="NWNU"/>
         </div>
       </el-col>
     </el-row>
@@ -131,7 +131,7 @@ const LocalData =[
 
       </el-row>
 
-
+</div>
 </template>
 
 <style scoped>
