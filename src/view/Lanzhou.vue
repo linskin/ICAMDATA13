@@ -1,4 +1,6 @@
 <template>
+  <div style="padding-left: 10vw;padding-right: 10vw">
+
   <el-row>
     <el-col :offset="2" :span="20">
       <h1>LanZhou</h1>
@@ -6,7 +8,7 @@
   </el-row>
 
   <el-row style="margin-bottom: 5%" class="namoral">
-    <el-col :span="7" :offset="3">
+    <el-col :span="8" :offset="3">
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <img src="../components/icons/baitashan.jpg" style="width: 100%">
         <div style="padding: 14px">
@@ -38,6 +40,7 @@
       <div>Lanzhou is a city that offers a unique blend of history, culture, and natural beauty. We hope you enjoy the trip to Lanzhou and NWNU.</div>
     </el-col>
   </el-row>
+  </div>
 </template>
 
 <script>

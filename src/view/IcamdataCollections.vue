@@ -3,15 +3,16 @@
 </script>
 
 <template>
-  <div >
+<div style="padding-left: 10vw;padding-right: 10vw">
+  <el-row style="margin-bottom: 36%">
+    <el-col :span="24">
+      <div >
         <span>
           <img src="../components/icons/label.png" alt="label"  class="floating-window-label"/>
         </span>
-  </div>
-  <el-row style="margin-bottom: 36%">
-    <el-col :span="24">
+      </div>
       <div>
-        <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 99%;position: fixed" alt="NWNU"/>
+        <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 79vw;position: fixed" alt="NWNU"/>
       </div>
     </el-col>
   </el-row>
@@ -24,7 +25,7 @@
         Guest Editors: C Z Dong, X B Ding, (and others)</p>
     </el-col>
   </el-row>
-    <el-row style="background-color: white ;opacity:0.85;">
+  <el-row style="background-color: white ;opacity:0.85;">
     <el-col :span="18" :offset="3">
       <el-divider/>
       <h2 class="label">past ICAMDATA Conference Proceedings and Collections</h2>
@@ -56,8 +57,10 @@
         <span><a href="https://projects.iq.harvard.edu/files/icamdata/files/icamdata-abs-final.pdf">contributed abstracts</a></span></p>
       <p class="namoral">2022. Mola di Bari, Italy.<span><a href="https://epjd.epj.org/component/toc/?task=topic&id=1858"> Eur. Phys. J. D (Topical Issue) (2023)</a></span>
         Annarita Laricchiuta, Iouli E. Gordon, Christian Hill, Gianpiero Colonna and Sylwia Ptasinska (Guest editors)</p>
-      </el-col>
-    </el-row>
+    </el-col>
+  </el-row>
+</div>
+
 </template>
 
 <style scoped>

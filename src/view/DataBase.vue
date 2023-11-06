@@ -8,7 +8,6 @@
   </el-row>
 
   <el-row>
-
     <el-col :span="9" :offset="3">
       <img src="../components/icons/ExoMol.png"/>
       <b/>
