@@ -3,10 +3,6 @@
   <swiper
       :space-between="0"
       :effect="'fade'"
-      :pagination="{
-      dynamicBullets: false,
-    }"
-      :navigation = "false"
       :autoplay="{
         delay: 4000,
         disableOnInteraction:true
@@ -15,6 +11,7 @@
       class="mySwiper"
   >
 <!--    <swiper-slide><img src="./icons/img.png"  alt="" class="img_holder"/></swiper-slide>-->
+    <swiper-slide><img src="./icons/img.png"  alt="" class="img_holder"/></swiper-slide>
     <swiper-slide><img src="./icons/baitashi2.png"  alt="" class="img_holder"/></swiper-slide>
     <swiper-slide><img src="./icons/maijisan.jpg"  alt="" class="img_holder"/></swiper-slide>
     <swiper-slide><img src="./icons/dunhuang.jpg"  alt="" class="img_holder"/></swiper-slide>

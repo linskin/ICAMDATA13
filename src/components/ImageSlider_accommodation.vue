@@ -4,9 +4,8 @@
       :space-between="30"
       :effect="'fade'"
       :pagination="{
-      dynamicBullets: false,
+      dynamicBullets: true,
     }"
-      :navigation = "false"
       :autoplay="{
         delay: 3000,
         disableOnInteraction:true
@@ -21,17 +20,14 @@
 </template>
 
 <script>
-// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'
 import './ImageSliderStyle.css';
 import 'swiper/css/effect-fade'
 
-// import required modules
 import {Pagination, Autoplay, Navigation, EffectFade} from 'swiper/modules';
 
 export default {
@@ -48,10 +44,6 @@ export default {
 </script>
 <style>
 .mySwiper{
-//position: relative;
-//left:0px;
-//width: 100%;
-//height: 100vh;
   height: 700px;
 }
 </style>

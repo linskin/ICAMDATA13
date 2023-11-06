@@ -1,15 +1,5 @@
 <template>
 
-<!--      <div class="floating-window">-->
-<!--        credits<br>-->
-<!--        <table><tbody>-->
-<!--        <tr><td><i>new</i> Harbour </td><td align="right"> (Vincenzo Lombardo) </td></tr>-->
-<!--        <tr><td>Roberti Palace </td><td align="right"> (SabinoG.Photo) </td></tr>-->
-<!--        <tr><td>Loreto Church </td><td align="right"> (Vincenzo Lombardo) </td></tr>-->
-<!--        <tr><td>Angioino Castle </td><td align="right"> (photogallery of GAL SudEst Barese) </td></tr>-->
-<!--        </tbody></table>-->
-<!--      </div>-->
-
 <div style="padding-right: 10vw;padding-left: 10vw">
   <el-row style="z-index: -9;max-height: 40vw">
     <el-col :span="24">
@@ -127,16 +117,12 @@ p.Mid, li.Mid, div.Mid
   text-justify:inter-ideograph;
   font-size:18pt;
   font-family:"微软雅黑 Light",sans-serif;
-  //font-family:"Helvetica Neue",sans-serif;
 }
 p.Bold, li.Bold, div.Bold
 {
   margin:0;
-  //text-align:justify;
-  //text-justify:inter-ideograph;
   font-size:20pt;
   font-weight: bold;
-  //font-family:"Helvetica Neue", sans-serif;
   font-family:"微软雅黑 Light",sans-serif;
 
 }
@@ -147,20 +133,6 @@ p.normal, li.normal, div.normal
   font-family:"微软雅黑 Light",sans-serif;
 
 }
-/*//.floating-window{
-//  position:absolute;
-//  top:40%;
-//  left:5%;
-//  width:20%;
-//  background-color:#ffffff;
-//  text-align: justify;
-//  padding:20px 20px 20px;
-//  font-size:80%;
-//  z-index: 2;
-//  opacity:0.7;
-//  animation:caption 1s;
-//  -webkit-animation:caption 1s
-//}*/
 
 .floating-window-label{
   position:absolute;

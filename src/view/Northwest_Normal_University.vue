@@ -21,7 +21,7 @@
     </el-col>
   </el-row>
 
-  <el-row style="margin-bottom: 10%" class="namoral">
+  <el-row style="" class="namoral">
     <el-col :span="8" :offset="2">
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <img src="../components/icons/tsg.jpg" alt="">
@@ -34,6 +34,11 @@
       <div>Since its independent establishment, more than 290,000 students had been trained and grown up. The university enrolls students from 31 provinces (autonomous regions and municipalities directly under the central government) in China, and there are currently 29,586 students enrolled in various types of schools, including 18,105 ordinary undergraduates, 865 doctoral students, 10,170 master's degree students, and 446 international students. There are 2,627 faculty members in the university, with 375 full senior titles, 887 associate titles, 990 with doctoral degrees and 935 with master's degrees. Among them, 1,739 are full-time teachers, 351 are professors and 703 are associate professors.</div>
     </el-col>
   </el-row>
+    <el-row style="margin-top: 2%">
+      <el-col :span="21" :offset="2">
+        <CardSwiper_nwnu/>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
@@ -42,9 +47,10 @@ import ImageSlider from "@/components/ImageSlider.vue";
 
 export default {
   name: "GanSu",
-  components: {ImageSlider}
+  components: {CardSwiper_nwnu, ImageSlider}
 }
 import { ref } from 'vue'
+import CardSwiper_nwnu from "@/components/CardSwiper_nwnu.vue";
 
 const currentDate = ref(new Date())
 </script>

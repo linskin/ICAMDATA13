@@ -55,12 +55,17 @@
   </el-row>
 
   <el-row class="namoral">
-    <el-col :offset="3" :span="20">
+    <el-col :offset="2" :span="20">
       <div>
         Overall, Gansu is a fascinating destination for anyone interested in Chinese culture and history, and would make a great addition to any international academic conference itinerary.
       </div>
     </el-col>
   </el-row>
+    <el-row style="margin-top: 2%">
+      <el-col :span="21" :offset="2">
+        <CardSwiper_gansu/>
+      </el-col>
+    </el-row>
     </div>
 </template>
 
@@ -69,9 +74,10 @@ import ImageSlider from "@/components/ImageSlider.vue";
 
 export default {
   name: "GanSu",
-  components: {ImageSlider}
+  components: {CardSwiper_gansu, ImageSlider}
 }
 import { ref } from 'vue'
+import CardSwiper_gansu from "@/components/CardSwiper_gansu.vue";
 
 const currentDate = ref(new Date())
 </script>

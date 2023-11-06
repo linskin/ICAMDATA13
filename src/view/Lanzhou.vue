@@ -36,20 +36,29 @@
   </el-row>
 
   <el-row class="namoral">
-    <el-col :offset="3" :span="20">
+    <el-col :offset="2" :span="20">
       <div>Lanzhou is a city that offers a unique blend of history, culture, and natural beauty. We hope you enjoy the trip to Lanzhou and NWNU.</div>
+    </el-col>
+  </el-row>
+  <el-row style="margin-top: 2%">
+    <el-col :span="21" :offset="2">
+      <CardSwiper_lanzou/>
     </el-col>
   </el-row>
   </div>
 </template>
 
-<script>
-import ImageSlider from "@/components/ImageSlider.vue";
 
-export default {
-  components: {ImageSlider}
-}
+<script>
 import { ref } from 'vue'
+import {defineComponent} from "vue";
+import CardSwiper from "@/components/CardSwiper.vue";
+import CardSwiper_lanzou from "@/components/CardSwiper_lanzou.vue";
+
+export default defineComponent({
+  components: {CardSwiper_lanzou, CardSwiper}
+})
+
 
 const currentDate = ref(new Date())
 </script>
