@@ -1,10 +1,9 @@
 <template>
-
   <el-row style="background-color: white ;opacity:0.85;" >
     <el-divider class="divider"/>
-    <el-col :span="18" :offset="3">
+    <el-col :span="18" :offset="3" style="margin-bottom: 3%">
       <div>
-        <img src="./icons/foot.jpg" alt="赞助商" class="img_holder">
+        <CardSwiper_lanzou/>
       </div>
     </el-col>
   </el-row>
@@ -12,10 +11,13 @@
 
 <script>
 import ImageSlider from "@/components/ImageSlider.vue";
+import CardSwiper_gansu from "@/components/CardSwiper_gansu.vue";
+import CardSwiper from "@/components/CardSwiper.vue";
+import CardSwiper_lanzou from "@/components/CardSwiper_lanzou.vue";
 
 export default {
   name: "Footer",
-  components: {ImageSlider}
+  components: {CardSwiper_lanzou, CardSwiper, CardSwiper_gansu, ImageSlider}
 }
 </script>
 

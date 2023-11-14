@@ -51,13 +51,20 @@
 
       <el-menu-item class="head10" index="/LogIn" disabled><span class="text">LOG IN</span></el-menu-item>
 
-<!--      <el-menu-item index="/LogUp" ><span class="text">LOG UP</span></el-menu-item>-->
+      <!--      <el-menu-item index="/LogUp" ><span class="text">LOG UP</span></el-menu-item>-->
     </el-menu>
 <!--  </el-row>-->
 
 </template>
 <script>
 import { ElMessageBox } from 'element-plus'
+import {defineComponent} from "vue";
+import CardSwiper_lanzou from "@/components/CardSwiper_lanzou.vue";
+
+export default defineComponent({
+  components: {CardSwiper_lanzou}
+})
+
 
 const open = () => {
   ElMessageBox.confirm(

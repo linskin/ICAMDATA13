@@ -1,7 +1,7 @@
 <template>
 
 <div style="padding-right: 10vw;padding-left: 10vw">
-  <el-row style="z-index: -9;max-height: 40vw">
+  <el-row style="z-index: -9;max-height: 40vw;margin-top: 10%">
     <el-col :span="24">
       <div >
         <span>
@@ -116,21 +116,21 @@ p.Mid, li.Mid, div.Mid
   text-align:justify;
   text-justify:inter-ideograph;
   font-size:18pt;
-  font-family:"微软雅黑 Light",sans-serif;
+  font-family:"微软雅黑",sans-serif;
 }
 p.Bold, li.Bold, div.Bold
 {
   margin:0;
   font-size:20pt;
   font-weight: bold;
-  font-family:"微软雅黑 Light",sans-serif;
+  font-family:"微软雅黑",sans-serif;
 
 }
 p.normal, li.normal, div.normal
 {
   margin:0;
   font-size:15pt;
-  font-family:"微软雅黑 Light",sans-serif;
+  font-family:"微软雅黑",sans-serif;
 
 }
 
