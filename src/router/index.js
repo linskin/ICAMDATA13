@@ -38,7 +38,7 @@ const routes = [
             { path: 'DataTime',component: DataTime},
             { path: 'Committees',component: Committees},
             { path: 'Registration',component: Registration},
-            { path: 'InvitedSpeakers',component: InvitedSpeakers}
+            { path: 'InvitedSpeaker',component: InvitedSpeakers}
 
         ],
 

@@ -18,11 +18,10 @@
   </el-row>
   <el-row style="background-color: white ;opacity:0.95;">
     <el-col :span="18" :offset="3" style="margin-top: 2%">
-      <h2 class="label"> 13th ICAMDATA Collection</h2>
+      <h2 class="label"> 13th ICAMDATA Proceeding</h2>
       <b/>
-      <p class="namoral">Invited speakers and all presenters contributing to the Conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D
-        Atomic and Molecular Data and Their Applications: ICAMDATA 2024
-        Guest Editors: C Z Dong, X B Ding, (and others)</p>
+      <p class="namoral">
+        Invited speakers and all presenters contributing to the Conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D or Atom.</p>
     </el-col>
   </el-row>
   <el-row style="background-color: white ;opacity:0.95;">

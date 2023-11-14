@@ -1,4 +1,13 @@
 <template>
+<!--  <el-row>-->
+<!--    <el-col :span="18" :offset="3" style="margin-bottom: 3%">-->
+<!--      <div>-->
+<!--&lt;!&ndash;        <img src="../components/icons/foot.jpg">&ndash;&gt;-->
+<!--      </div>-->
+<!--    </el-col>-->
+<!--    </el-row>-->
+
+<!--    <el-row>-->
     <el-menu
         :ellipsis="false"
         mode="horizontal"
@@ -12,8 +21,8 @@
       <el-menu-item index="/InvitedSpeaker"><span class="text">INVITED SPEAKERS</span></el-menu-item>
       <el-sub-menu class="head4">
         <template #title><span class="text">PROGRAMME</span></template>
-<!--        <el-menu-item index="/Programme/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>-->
-        <el-menu-item index="/Programme/DateBaseNew"><span class="text">DATEBASE</span></el-menu-item>
+        <!--        <el-menu-item index="/Programme/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>-->
+        <el-menu-item index="/Programme/DateBaseNew"><span class="text">DATABASE</span></el-menu-item>
         <el-menu-item index="/Programme/Schdule" ><span class="text">SCHEDULE</span></el-menu-item>
         <el-menu-item index="/Programme/PosterSession" ><span class="text">POSTER SESSION</span></el-menu-item>
         <el-menu-item index="/Programme/BestPosterAwards" ><span class="text">BEST POSTER AWARDS</span></el-menu-item>
@@ -23,8 +32,8 @@
 
       <el-sub-menu class="head5" index="3">
         <template #title><span class="text">VENUE</span></template>
-<!--        <el-menu-item index="/VENUE/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>-->
-        <el-menu-item index="/VENUE/Lanzhou" ><span class="text"><a href="http://lanzhou.gogansu.com/"></a></span></el-menu-item>
+        <!--        <el-menu-item index="/VENUE/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>-->
+        <el-menu-item ><span class="text" ><a style="text-underline: none" href="http://lanzhou.gogansu.com/">Lan Zhou</a></span></el-menu-item>
         <el-menu-item index="/VENUE/Northwest_Normal_University" ><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
         <el-menu-item index="/VENUE/Accommodation" ><span class="text">ACCOMMODATION</span></el-menu-item>
         <el-menu-item index="/VENUE/Travel_Info"><span class="text">TRAVEL INFO</span></el-menu-item>
@@ -32,7 +41,7 @@
 
       <el-menu-item class="head6" index="/Registration"><span class="text">REGISTRATION</span></el-menu-item>
 
-      <el-menu-item class="head7" index="/DataTime"><span class="text">DATATIME</span></el-menu-item>
+      <el-menu-item class="head7" index="/DataTime"><span class="text">DATETIME</span></el-menu-item>
 
       <el-menu-item class="head8"><span class="text"><a href="https://physics.nist.gov/Icamdata/Homepage/charter.html" >ICAMDATA CHAPTER</a></span></el-menu-item>
 
@@ -44,6 +53,8 @@
 
 <!--      <el-menu-item index="/LogUp" ><span class="text">LOG UP</span></el-menu-item>-->
     </el-menu>
+<!--  </el-row>-->
+
 </template>
 <script>
 import { ElMessageBox } from 'element-plus'
