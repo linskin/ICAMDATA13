@@ -8,7 +8,7 @@
     <el-col :span="24">
       <div >
         <span>
-          <img src="../components/icons/label.png" alt="label"  class="floating-window-label"/>
+          <img src="../components/icons/lable.jpg" alt="label"  class="floating-window-label"/>
         </span>
       </div>
       <div>
@@ -16,16 +16,16 @@
       </div>
     </el-col>
   </el-row>
-  <el-row style="background-color: white ;opacity:0.85;">
+  <el-row style="background-color: white ;opacity:0.95;">
     <el-col :span="18" :offset="3" style="margin-top: 2%">
       <h2 class="label"> 13th ICAMDATA Collection</h2>
       <b/>
       <p class="namoral">Invited speakers and all presenters contributing to the Conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D
-        Atomic and Molecular Data and Their Applications: ICAMDATA2024
+        Atomic and Molecular Data and Their Applications: ICAMDATA 2024
         Guest Editors: C Z Dong, X B Ding, (and others)</p>
     </el-col>
   </el-row>
-  <el-row style="background-color: white ;opacity:0.85;">
+  <el-row style="background-color: white ;opacity:0.95;">
     <el-col :span="18" :offset="3">
       <el-divider/>
       <h2 class="label">past ICAMDATA Conference Proceedings and Collections</h2>
@@ -79,7 +79,8 @@
 }
 .floating-window-label{
   position:absolute;
-  top:25%;
+  margin-top: 10%;
+  //top:10%;
   right:3%;
   width: 45%;
   z-index: 2;
@@ -87,8 +88,7 @@
 }
 @media (max-width : 1500px) {
 .namoral{
-  font-size: 14pt
-
+  font-size: 14pt;
 }
   .label{
     font-size: 16pt;

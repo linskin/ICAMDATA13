@@ -38,13 +38,13 @@ const routes = [
             { path: 'DataTime',component: DataTime},
             { path: 'Committees',component: Committees},
             { path: 'Registration',component: Registration},
+            { path: 'InvitedSpeakers',component: InvitedSpeakers}
 
         ],
 
     },
     {path:'/Programme',
         children: [
-            {path: 'InvitedSpeakers',component: InvitedSpeakers},
             {path:'DateBaseNew',component: DateBaseNew},
             {path: 'Schdule',component: Schdule},
             {path: 'IcamdataCollections',component: IcamdataCollections},

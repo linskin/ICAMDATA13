@@ -102,7 +102,7 @@ const LocalData =[
       <el-col :span="24.0" >
         <div >
         <span>
-          <img src="../components/icons/label.png" alt="label" class="floating-window-label"/>
+          <img src="../components/icons/lable.jpg" alt="label" class="floating-window-label"/>
         </span>
         </div>
         <div>
@@ -110,6 +110,7 @@ const LocalData =[
         </div>
       </el-col>
     </el-row>
+  </div>
       <el-row style="background-color: white ;opacity:0.95;">
 <!--        <el-col :span="4" style="background-color: white ;opacity:0.95;margin-top: 1%"/>-->
         <el-col :span="14" style="background-color: white ;opacity:0.95;margin-top: 1%" :offset="5">
@@ -131,7 +132,7 @@ const LocalData =[
 
       </el-row>
 
-</div>
+
 </template>
 
 <style scoped>
@@ -154,7 +155,7 @@ const LocalData =[
 }
 .floating-window-label{
   position:absolute;
-  top:30%;
+  margin-top:10%;
   right:3%;
   width: 45%;
   z-index: 2;

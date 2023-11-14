@@ -28,7 +28,7 @@
     <el-col :span="24">
       <div>
         <span>
-          <img src="../components/icons/label.png" alt="label"  class="floating-window-label"/>
+          <img src="../components/icons/lable.jpg" alt="label"  class="floating-window-label"/>
         </span>
       </div>
       <div>
@@ -36,6 +36,7 @@
       </div>
     </el-col>
   </el-row>
+  </div>
 
   <el-row style="background-color: white ;opacity:0.85;">
 
@@ -78,7 +79,6 @@
     </el-col>
 
   </el-row>
-  </div>
 </template>
 
 <style scoped>
@@ -97,7 +97,7 @@
 }
 .floating-window-label{
   position:absolute;
-  top:50%;
+  margin-top:10%;
   right:3%;
   width: 45%;
   z-index: 2;

@@ -9,22 +9,22 @@
       <el-menu-item class="head2" index="/"><span class="text">HOME</span></el-menu-item>
 
       <el-menu-item class="head3" index="/Committees"><span class="text">COMMITTEES</span></el-menu-item>
-
+      <el-menu-item index="/InvitedSpeaker"><span class="text">INVITED SPEAKERS</span></el-menu-item>
       <el-sub-menu class="head4">
         <template #title><span class="text">PROGRAMME</span></template>
-        <el-menu-item index="/Programme/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>
-        <el-menu-item index="/Programme/DateBaseNew"><span class="text">DATABASE</span></el-menu-item>
+<!--        <el-menu-item index="/Programme/InvitedSpeakers" ><span class="text">INVITED SPEAKERS</span></el-menu-item>-->
+        <el-menu-item index="/Programme/DateBaseNew"><span class="text">DATEBASE</span></el-menu-item>
         <el-menu-item index="/Programme/Schdule" ><span class="text">SCHEDULE</span></el-menu-item>
         <el-menu-item index="/Programme/PosterSession" ><span class="text">POSTER SESSION</span></el-menu-item>
-        <el-menu-item index="/Programme/BestPosterAwards" ><span class="text">BEST POSTER AWARDS（*）</span></el-menu-item>
+        <el-menu-item index="/Programme/BestPosterAwards" ><span class="text">BEST POSTER AWARDS</span></el-menu-item>
         <el-menu-item index="/Programme/SatelliteMeeting" ><span class="text">SATELLITE MEETING</span></el-menu-item>
-        <el-menu-item index="/Programme/IcamdataCollections"><span class="text">ICAMDATA COLLECTIONS</span></el-menu-item>
+        <el-menu-item index="/Programme/IcamdataCollections"><span class="text">PROCEEDINGS</span></el-menu-item>
       </el-sub-menu>
 
       <el-sub-menu class="head5" index="3">
         <template #title><span class="text">VENUE</span></template>
-        <el-menu-item index="/VENUE/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>
-        <el-menu-item index="/VENUE/Lanzhou" ><span class="text">LAN ZHOU</span></el-menu-item>
+<!--        <el-menu-item index="/VENUE/GanSuProvince" ><span class="text">GANSU PROVINCE</span></el-menu-item>-->
+        <el-menu-item index="/VENUE/Lanzhou" ><span class="text"><a href="http://lanzhou.gogansu.com/"></a></span></el-menu-item>
         <el-menu-item index="/VENUE/Northwest_Normal_University" ><span class="text">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
         <el-menu-item index="/VENUE/Accommodation" ><span class="text">ACCOMMODATION</span></el-menu-item>
         <el-menu-item index="/VENUE/Travel_Info"><span class="text">TRAVEL INFO</span></el-menu-item>

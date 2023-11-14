@@ -5,7 +5,7 @@
     <el-col :span="24">
       <div >
         <span>
-          <img src="../components/icons/label.png" alt="label" class="floating-window-label"/>
+          <img src="../components/icons/lable.jpg" alt="label" class="floating-window-label"/>
         </span>
       </div>
       <div>
@@ -15,7 +15,7 @@
   </el-row>
 
   <el-row style="margin-top: -3%;background-color: white ;opacity:0.85;width: inherit; height: fit-content" >
-    <el-col :span="18" :offset="3" style="margin-top: 5%;">
+    <el-col :span="21" :offset="1" style="margin-top: 5%;">
       <div class=" namoral-board">
         <p class=Mid  style='text-align:left'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span></p>
 
@@ -66,11 +66,11 @@
     </el-col>
   </el-row>
   <el-row style="margin-top: 1%;width: inherit; height: fit-content">
-    <el-col :span="20" :offset="2">
+    <el-col :span="23" :offset="1">
       <div class="text Mid">
         <p class=normal  style='text-align:left'><span lang=EN-US>The scientific programme will include invited and contributed talks in the regular sessions, a poster session and special sessions devoted to uncertainty quantification and database demonstrations.</span></p>
         <p class=normal  style='text-align:left'><span lang=EN-US>13th ICAMDATA, hosted by the
-          <a href="https://www.nwnu.edu.cn/" target="_blank">NWNU</a>, constituted in Comitato Organizzatore di ICAMDATA 2020&star;, in the beautiful scenario of the
+          <a href="https://www.nwnu.edu.cn/" target="_blank">NWNU</a>, constituted in Comitato Organizzatore di ICAMDATA 2024&star;, in the beautiful scenario of the
           <a href="http://wlj.lanzhou.gov.cn/" target="_blank">Lan Zhou</a>, is organized in cooperation with the
           <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA).</a>
         </span>
@@ -136,7 +136,7 @@ p.normal, li.normal, div.normal
 
 .floating-window-label{
   position:absolute;
-  top:0%;
+  margin-top:10%;
   right:3%;
   width: 45%;
   z-index: 2;

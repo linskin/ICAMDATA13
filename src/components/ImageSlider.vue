@@ -50,7 +50,7 @@ export default {
 .mySwiper{
 }
 .img_holder{
-  margin: 10px;
+  //margin: 10px;
 //background-color: #181818;
   width:100%;
 }
