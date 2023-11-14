@@ -16,16 +16,24 @@ import Footer from "@/components/Footer.vue";
 
 <style>
 
-
-
 .header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  z-index: 999;
-  /* 其他样式属性 */
+  @media screen and (min-width: 300px){
+    position: fixed;
+  //padding-right: 10rem;
+  //padding-left: 10rem;
+    z-index: 999;
+    /* 其他样式属性 */
+  }
+  @media screen and (max-width: 3000px) {
+    position: fixed;
+  //padding-right: 10rem;
+  //padding-left: 10rem;
+    z-index: 1;
+    /* 其他样式属性 */
+  }
 }
+
+
 .el-main{
   margin: 0;
   padding: 0;

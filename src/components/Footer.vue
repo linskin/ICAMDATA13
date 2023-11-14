@@ -5,6 +5,9 @@
       <div>
         <CardSwiper_lanzou/>
       </div>
+      <div>
+        <img src="/src/components/icons/foot.jpg" style="width: 100%;height: 100%;"/>
+      </div>
     </el-col>
   </el-row>
 </template>

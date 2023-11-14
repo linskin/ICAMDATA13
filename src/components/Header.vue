@@ -6,13 +6,11 @@
 <!--      </div>-->
 <!--    </el-col>-->
 <!--    </el-row>-->
-
-<!--    <el-row>-->
     <el-menu
-        :ellipsis="false"
         mode="horizontal"
-        style="width: 100%;"
-        router>
+        :ellipsis="false"
+        router
+    style="">
       <el-menu-item class="head1"><span class="text">13TH ICAMDATA</span></el-menu-item>
 
       <el-menu-item class="head2" index="/"><span class="text">HOME</span></el-menu-item>
@@ -53,8 +51,6 @@
 
       <!--      <el-menu-item index="/LogUp" ><span class="text">LOG UP</span></el-menu-item>-->
     </el-menu>
-<!--  </el-row>-->
-
 </template>
 <script>
 import { ElMessageBox } from 'element-plus'
@@ -83,9 +79,10 @@ const open = () => {
 .text{
 font-size: 16px;
 }
+
 @media  {
   .text{
-    font-size:0.9vw;
+    font-size:0.88vw;
   }
 }
 .head1{

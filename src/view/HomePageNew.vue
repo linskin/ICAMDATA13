@@ -1,7 +1,7 @@
 <template>
 
-<div style="padding-right: 10vw;padding-left: 10vw">
-  <el-row style="z-index: -9;max-height: 40vw;margin-top: 10%">
+<div style="padding-right: 10vw;padding-left: 10vw;padding-top: 5vw">
+  <el-row style="z-index: -9;max-height: 40vw">
     <el-col :span="24">
       <div >
         <span>
