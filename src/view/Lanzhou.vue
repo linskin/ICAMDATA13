@@ -1,6 +1,4 @@
 <template>
-  <div style="padding-left: 10vw;padding-right: 10vw">
-
   <el-row>
     <el-col :offset="2" :span="20">
       <h1>LanZhou</h1>
@@ -45,7 +43,6 @@
       <CardSwiper_lanzou/>
     </el-col>
   </el-row>
-  </div>
 </template>
 
 

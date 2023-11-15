@@ -1,7 +1,5 @@
 <template>
-  <div style="padding-left: 10vw;padding-right: 10vw">
-
-  <el-row>
+  <el-row style="margin-top: 3%">
     <el-col :offset="1" :span="20">
       <h1>Northwest Normal University</h1>
     </el-col>
@@ -39,7 +37,6 @@
         <CardSwiper_nwnu/>
       </el-col>
     </el-row>
-  </div>
 </template>
 
 <script>

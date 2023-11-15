@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <el-row>
     <el-col :span="5" :offset="3"><p>Databases @ ICAMDATA</p></el-col>

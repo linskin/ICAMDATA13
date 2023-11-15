@@ -3,20 +3,7 @@
 </script>
 
 <template>
-<div style="padding-left: 10vw;padding-right: 10vw">
-  <el-row style="margin-bottom: 36%">
-    <el-col :span="24">
-      <div >
-        <span>
-          <img src="../components/icons/lable.jpg" alt="label"  class="floating-window-label"/>
-        </span>
-      </div>
-      <div>
-        <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 79vw;position: fixed" alt="NWNU"/>
-      </div>
-    </el-col>
-  </el-row>
-  <el-row style="background-color: white ;opacity:0.95;">
+  <el-row style="background-color: white ;opacity:0.95;margin-top: 2%">
     <el-col :span="18" :offset="3" style="margin-top: 2%">
       <h2 class="label"> 13th ICAMDATA Proceeding</h2>
       <b/>
@@ -58,8 +45,6 @@
         Annarita Laricchiuta, Iouli E. Gordon, Christian Hill, Gianpiero Colonna and Sylwia Ptasinska (Guest editors)</p>
     </el-col>
   </el-row>
-</div>
-
 </template>
 
 <style scoped>

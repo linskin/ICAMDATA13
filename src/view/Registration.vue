@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <el-row>
+  <el-row style="margin-top: 3%">
     <el-col :span="24">
       <div style="font-size: 30px;text-align: center;margin-top: 10%;margin-bottom: 10%" class="normal">
         Registration will be open at March 1, 2024.

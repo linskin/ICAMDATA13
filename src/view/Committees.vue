@@ -97,23 +97,8 @@ const LocalData =[
 </script>
 
 <template>
-  <div style="padding-right: 10vw;padding-left: 10vw">
-    <el-row style="margin-bottom: 36%">
-      <el-col :span="24.0" >
-        <div >
-        <span>
-          <img src="../components/icons/lable.jpg" alt="label" class="floating-window-label"/>
-        </span>
-        </div>
-        <div>
-          <img src="../components/icons/NWNU.webp" style="z-index: -1;width: 79vw;position: fixed" alt="NWNU"/>
-        </div>
-      </el-col>
-    </el-row>
-  </div>
-      <el-row style="background-color: white ;opacity:0.95;">
-<!--        <el-col :span="4" style="background-color: white ;opacity:0.95;margin-top: 1%"/>-->
-        <el-col :span="14" style="background-color: white ;opacity:0.95;margin-top: 1%" :offset="5">
+      <el-row style="background-color: white ;opacity:0.95;margin-top: 5%">
+        <el-col :span="18" style="background-color: white ;opacity:0.95" :offset="3">
           <p class="Bold">International Program Committee</p>
           <el-table :data="InterData" class="Mid">
             <el-table-column prop="date"   />
@@ -129,10 +114,7 @@ const LocalData =[
           </el-table>
         </el-col>
         <el-col :span="3" style="background-color: white ;opacity:0.95;margin-top: 1%"/>
-
       </el-row>
-
-
 </template>
 
 <style scoped>

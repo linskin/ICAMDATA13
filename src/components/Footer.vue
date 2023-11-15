@@ -1,12 +1,12 @@
 <template>
   <el-row style="background-color: white ;opacity:0.85;" >
     <el-divider class="divider"/>
-    <el-col :span="18" :offset="3" style="margin-bottom: 3%">
+    <el-col :span="24" style="margin-bottom: 3%">
       <div>
         <CardSwiper_lanzou/>
       </div>
       <div>
-        <img src="/src/components/icons/foot.jpg" style="width: 100%;height: 100%;"/>
+        <img src="../components/icons/footer2.jpg" style="width: 100%;height: 100%;margin-top: 2%"/>
       </div>
     </el-col>
   </el-row>

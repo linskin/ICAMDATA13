@@ -1,7 +1,5 @@
 <template>
-  <div style="padding-left: 10vw;padding-right: 10vw">
-
-  <el-row>
+  <el-row style="margin-top: 3%">
     <el-col :span="8" :offset="2">
       <div>
         <h1>Accommodation</h1>
@@ -39,7 +37,6 @@
       </el-row>
     </el-col>
   </el-row>
-  </div>
 </template>
 
 

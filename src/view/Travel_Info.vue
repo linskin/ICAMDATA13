@@ -22,23 +22,7 @@
 </script>
 
 <template>
-  <div style="padding-left: 10vw;padding-right: 10vw">
-
-  <el-row style="margin-bottom: 36%" >
-    <el-col :span="24">
-      <div>
-        <span>
-          <img src="../components/icons/lable.jpg" alt="label"  class="floating-window-label"/>
-        </span>
-      </div>
-      <div>
-        <img src="../components/icons/jichang.jpeg" style="z-index: -1;width: 78vw;position: fixed" alt="airport"/>
-      </div>
-    </el-col>
-  </el-row>
-  </div>
-
-  <el-row style="background-color: white ;opacity:0.85;">
+  <el-row style="background-color: white ;opacity:0.85;margin-top: 3%">
 
   <el-row style="margin-bottom: 3%; margin-top: 3%;">
     <el-col :span="18" :offset="3" style="background-color: white ;opacity:0.85;">
