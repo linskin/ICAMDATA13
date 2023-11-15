@@ -8,7 +8,7 @@
     </el-col>
   </el-row>
   <el-row>
-    <el-col :offset="3" :span="8" style="background-color: #ffffff">
+    <el-col :offset="2" :span="8" style="background-color: #ffffff">
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
         <ImageSlider_accommodation class="Image_full"/>
         <div style="padding: 3%">
@@ -16,7 +16,7 @@
         </div>
       </el-card>
     </el-col>
-    <el-col :span="9" style="margin-top: 5%" :offset="1">
+    <el-col :span="11" style="margin-top: 5%" :offset="1">
       <el-row>
         <el-col>
           <div>
@@ -50,12 +50,12 @@
 }
 .normal {
   margin:0;
-  font-size:19pt;
+  font-size:17pt;
   font-family:"微软雅黑 Light",sans-serif;
 
 }
 .Image_full{
-  width: inherit;
+  width: 100%;
   height: fit-content;
 }
 @media (max-width: 1500px) {

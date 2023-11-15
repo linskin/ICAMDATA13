@@ -37,7 +37,7 @@ const Data = [
 
 <template>
   <el-row style="margin-top: 5%">
-    <el-col :span="14" :offset="5">
+    <el-col :span="20" :offset="2">
       <p style="margin-bottom: 1%;font-weight: bold" class="namoral">Important Date</p>
       <el-table :data="Data" class="namoral" border :show-header="false">
         <el-table-column prop="date"/>

@@ -98,7 +98,7 @@ const LocalData =[
 
 <template>
       <el-row style="background-color: white ;opacity:0.95;margin-top: 5%">
-        <el-col :span="18" style="background-color: white ;opacity:0.95" :offset="3">
+        <el-col :span="20" style="background-color: white ;opacity:0.95" :offset="2">
           <p class="Bold">International Program Committee</p>
           <el-table :data="InterData" class="Mid">
             <el-table-column prop="date"   />

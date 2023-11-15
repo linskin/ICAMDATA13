@@ -22,7 +22,7 @@
   <el-row style="" class="namoral">
     <el-col :span="8" :offset="2">
       <el-card :body-style="{ padding: '0px' ,width: '100%' }">
-        <img src="../components/icons/tsg.jpg" alt="">
+        <img src="../components/icons/tsg.jpg" alt="" style="width: 100%">
         <div style="padding: 14px">
           <span style="align-content: center">New Campus Library</span>
         </div>
@@ -53,51 +53,15 @@ const currentDate = ref(new Date())
 </script>
 
 <style scoped>
-.el-row {
-  margin-bottom: 20px;
-}
-.el-row:last-child {
-  margin-bottom: 0;
-}
-.el-col {
-  border-radius: 4px;
-}
-
-.grid-content {
-  border-radius: 4px;
-  min-height: 36px;
-}
-.time {
-  font-size: 12px;
-  color: #999;
-}
-
-.bottom {
-  margin-top: 13px;
-  line-height: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.button {
-  padding: 0;
-  min-height: auto;
-}
-
-.image {
-  width: 100%;
-  display: block;
-}
 .namoral
 {
   margin-inline:5px;
-  font-size:18pt;
+  font-size: 17pt;
   font-family:"微软雅黑 Light",sans-serif;
 }
 @media (max-width: 1500px) {
   .namoral{
-    font-size: 15px;
+    font-size: 15pt;
   }
 }
 </style>
