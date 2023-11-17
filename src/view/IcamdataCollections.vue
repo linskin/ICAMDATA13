@@ -4,15 +4,15 @@
 
 <template>
   <el-row style="background-color: white ;opacity:0.95;margin-top: 2%">
-    <el-col :span="18" :offset="3" style="margin-top: 2%">
+    <el-col :span="22" :offset="1" style="margin-top: 2%">
       <h2 class="label"> 13th ICAMDATA Proceeding</h2>
       <b/>
       <p class="namoral">
-        Invited speakers and all presenters contributing to the Conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D or Atom.</p>
+        Invited speakers and all presenters contributing to the conference scientific programme are invited to submit a regular paper in the Topical Issue of the European Physical Journal D or Atom (under discussion).</p>
     </el-col>
   </el-row>
   <el-row style="background-color: white ;opacity:0.95;">
-    <el-col :span="18" :offset="3">
+    <el-col :span="22" :offset="1">
       <el-divider/>
       <h2 class="label">past ICAMDATA Conference Proceedings and Collections</h2>
       <p class="namoral">1997.Gaithersburg,Maryland.<span><a href="https://aip.scitation.org/toc/apc/434/1">AIP Conf.Proc.434</a></span>
@@ -51,15 +51,18 @@
 .namoral
 {
   margin:2vh;
-  font-size:13pt;
-  font-family:"微软雅黑",sans-serif;
+  font-size:14pt;
+  line-height: 1.25;
+
+  font-family:"微软雅黑 Light",sans-serif;
 }
 .label
 {
   margin:0;
+  line-height: 1.25;
+
   font-size:18pt;
-  font-weight: bold;
-  font-family:"微软雅黑",sans-serif;
+  font-family:"微软雅黑 Light",sans-serif;
 }
 .floating-window-label{
   position:absolute;
@@ -72,11 +75,13 @@
 }
 @media (max-width : 1500px) {
 .namoral{
-  font-size: 14pt;
+  font-size: 14pt;  line-height: 1.3;
+
 }
   .label{
-    font-size: 16pt;
+    font-size: 16pt;  line-height: 1.3;
+
+
   }
 }
-p{}
 </style>

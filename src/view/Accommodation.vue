@@ -60,7 +60,7 @@
 }
 @media (max-width: 1500px) {
   .normal{
-    font-size: 15px;
+    font-size: 14pt;
   }
 }
 </style>

@@ -131,7 +131,7 @@ const LocalData =[
 }
 .Mid{
   margin:0;
-  font-size:14pt;
+  font-size:13pt;
   color: black;
   font-family:"微软雅黑",serif;
 }

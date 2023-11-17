@@ -1,21 +1,18 @@
 <template>
-  <el-row style="background-color: white ;opacity:0.85;" >
+  <el-row style="background-color: white ;" >
     <el-divider class="divider"/>
     <el-col :span="24" style="margin-bottom: 3%">
       <div>
         <CardSwiper_lanzou/>
       </div>
       <div>
-        <img src="../components/icons/footer2.jpg" style="width: 100%;height: 100%;margin-top: 2%"/>
+        <img src="../components/icons/20019879902c80429e3c5be22dcc995.png" style="width: 100%;height: 100%;margin-top: 2%" alt=""/>
       </div>
     </el-col>
   </el-row>
 </template>
 
 <script>
-import ImageSlider from "@/components/ImageSlider.vue";
-import CardSwiper_gansu from "@/components/CardSwiper_gansu.vue";
-import CardSwiper from "@/components/CardSwiper.vue";
 import CardSwiper_lanzou from "@/components/CardSwiper_lanzou.vue";
 
 export default {
@@ -29,12 +26,8 @@ export default {
   height: 0.1pc;
   background-color: rgba(0, 0, 0, 0);
 }
-.text{
-  background-color: #ffffff;
-  min-height: fit-content;
-}
 .el-row {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .el-row:last-child {
   margin-bottom: 0;
@@ -51,7 +44,6 @@ p.Mid, li.Mid, div.Mid
   font-family:"Helvetica Neue",sans-serif;
 }
 .img_holder{
-  //margin: 1%;
   width: 100%;
 }
 

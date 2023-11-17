@@ -1,21 +1,18 @@
-import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
+import {createRouter, createWebHashHistory} from "vue-router";
 
 import DataTime from "@/view/DataTime.vue";
 import HomePageNew from "@/view/HomePageNew.vue";
 import Accommodation from "@/view/Accommodation.vue";
 import Committees from "@/view/Committees.vue";
-import Lanzhou from "@/view/Lanzhou.vue";
 import Registration from "@/view/Registration.vue";
 import Northwest_Normal_University from "@/view/Northwest_Normal_University.vue";
 import Travel_Info from "@/view/Travel_Info.vue";
 import BestPosterAwards from "@/view/BestPosterAwards.vue";
-import GanSuProvince from "@/view/GanSuProvince.vue";
 import IcamdataCollections from "@/view/IcamdataCollections.vue";
 import PosterSession from "@/view/PosterSession.vue";
 import SatelliteMeeting from "@/view/SatelliteMeeting.vue";
 import Schdule from "@/view/Schdule.vue";
 import InvitedSpeakers from "@/view/InvitedSpeakers.vue";
-import DateBaseNew from "@/view/DateBaseNew.vue";
 import Programme from "@/view/Programme.vue";
 import VENUE from "@/view/VENUE.vue";
 
@@ -40,7 +37,6 @@ const routes = [
     },
     {path:'/Programme',
         children: [
-            {path:'DateBaseNew',component: DateBaseNew},
             {path: 'Schdule',component: Schdule},
             {path: 'IcamdataCollections',component: IcamdataCollections},
             {path: 'SatelliteMeeting',component: SatelliteMeeting},
@@ -51,10 +47,8 @@ const routes = [
     },
     {path: '/VENUE',
         children: [
-            {path:'GanSuProvince',component: GanSuProvince },
             {path: 'Travel_Info',component: Travel_Info},
             {path: 'Northwest_Normal_University',component: Northwest_Normal_University},
-            {path: 'Lanzhou',component: Lanzhou},
             {path:'Accommodation',component: Accommodation }
         ]
     }

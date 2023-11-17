@@ -17,32 +17,19 @@ import Footer from "@/components/Footer.vue";
 <style>
 
 .header{
-  @media screen and (min-width: 300px){
-  //padding-right: 10rem;
-  //padding-left: 10rem;
-    z-index: 999;
-    padding-left: 10vw;padding-right: 10vw
-    /* 其他样式属性 */
-  }
-  @media screen and (max-width: 3000px) {
-  //padding-right: 10rem;
-  //padding-left: 10rem;
-    z-index: 1;
-    padding-left: 10vw;padding-right: 10vw
-    /* 其他样式属性 */
-  }
+  width: 100%;
+  margin: 0;
+  padding-left: 10vw;padding-right: 10vw
 }
 
 
 .el-main{
   margin: 0;
   padding: 0;
-  //height: fit-content;
 }
 .el-footer{
   margin: 0;
   padding: 0;
-  //height: fit-content;
 }
 
 *{

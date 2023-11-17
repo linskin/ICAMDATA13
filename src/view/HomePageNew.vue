@@ -1,13 +1,17 @@
 <template>
 
-  <el-row style="margin-top: 5%;background-color: white ;opacity:0.85;width: inherit; height: fit-content" >
-    <el-col :span="21" :offset="1">
+  <el-row style="margin-top: 3%;background-color: white ;opacity:0.85;width: inherit; height: fit-content">
+    <el-col :span="22" :offset="1">
       <div class=" namoral-board">
-        <p class=Mid  style='text-align:left'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span></p>
+        <p class=Mid  style='line-height: 1.3'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span><span lang=EN-US> The 13th ICAMDATA, hosted by the
+          <a href="https://www.nwnu.edu.cn/" target="_blank">NWNU</a>, in the beautiful scenario of the
+          <a href="http://lanzhou.gogansu.com/" target="_blank">Lanzhou</a>, is organized in cooperation with the
+          <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA)</a>.
+        </span></p>
 
         <p class=Mid  style='text-align:left'><span lang=EN-US>&nbsp;</span></p>
 
-        <p class=Mid  style='text-align:left'><span lang=EN-US>The topics covered by the Conference are </span></p>
+        <p class=Mid  style='text-align:left'><span lang=EN-US>The topics covered by the conference are: </span></p>
 
         <p class=Mid  style='text-align:left'><span lang=EN-US>&nbsp;</span></p>
 
@@ -51,22 +55,18 @@
       </div>
     </el-col>
   </el-row>
-  <el-row style="margin-top: 1%;width: inherit; height: fit-content">
-    <el-col :span="23" :offset="1">
+  <el-row style="margin-top: 5%;width: inherit; height: fit-content">
+    <el-col :span="22" :offset="1">
       <div class="text Mid">
-        <p class=normal  style='text-align:left'><span lang=EN-US>The scientific programme will include invited and contributed talks in the regular sessions, a poster session and special sessions devoted to uncertainty quantification and database demonstrations.</span></p>
-        <p class=normal  style='text-align:left'><span lang=EN-US>13th ICAMDATA, hosted by the
-          <a href="https://www.nwnu.edu.cn/" target="_blank">NWNU</a>, constituted in Comitato Organizzatore di ICAMDATA 2024, in the beautiful scenario of the
-          <a href="http://wlj.lanzhou.gov.cn/" target="_blank">Lan Zhou</a>, is organized in cooperation with the
-          <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA).</a>
-        </span>
+        <p class=Mid  style=''><span lang=EN-US>The scientific programme will include invited and contributed talks in the regular sessions, a poster session and special sessions devoted to uncertainty quantification and database demonstrations.</span></p>
+        <br>
+        <p class=Mid  style=''>
         </p>
       </div>
     </el-col>
   </el-row>
 </template>
 <script>
-import ImageSlider from "@/components/ImageSlider.vue";
 export default {
   name: "HomePageNew",
   components: {

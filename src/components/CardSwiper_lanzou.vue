@@ -3,22 +3,23 @@
       :slidesPerView="4"
       :spaceBetween="2"
       :autoplay="{
-        delay: 3000,
+        delay: 1800,
         disableOnInteraction:true
       }"
       :modules="modules"
       class="mySwiper"
   >
-    <swiper-slide class="back">Slide 1</swiper-slide>
-    <swiper-slide class="back">Slide 2</swiper-slide>
-    <swiper-slide class="back">Slide 3</swiper-slide>
-    <swiper-slide class="back">Slide 4</swiper-slide>
-    <swiper-slide class="back">Slide 5</swiper-slide>
-    <swiper-slide class="back">Slide 6</swiper-slide>
-    <swiper-slide class="back">Slide 7</swiper-slide>
-    <swiper-slide class="back">Slide 8</swiper-slide>
-    <swiper-slide class="back">Slide 9</swiper-slide>
-    <swiper-slide class="back">Slide 0</swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/001.png"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/002.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/003.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/004.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/005.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/006.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/007.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/008.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/009.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/010.jpg"/></swiper-slide>
+    <swiper-slide class="back"><img src="../components/icons/011.jpg"/></swiper-slide>
   </swiper>
 </template>
 <script>
@@ -54,6 +55,6 @@ export default {
   background-color: rgba(72, 71, 71, 0.07);
 }
 .mySwiper{
-  height: 20vh;
+  height: 27vh;
 }
 </style>
