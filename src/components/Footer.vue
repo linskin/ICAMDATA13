@@ -1,5 +1,5 @@
 <template>
-  <el-row style="background-color: white ;" >
+  <el-row style="background-color: white">
     <el-divider class="divider"/>
     <el-col :span="24" style="margin-bottom: 3%">
       <div>

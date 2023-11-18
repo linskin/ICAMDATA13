@@ -12,16 +12,12 @@ import Footer from "@/components/Footer.vue";
   </div>
 </template>
 
-
-
 <style>
 .header{
   width: 100%;
   margin: 0;
   padding-left: 10vw;padding-right: 10vw
 }
-
-
 .el-main{
   margin: 0;
   padding: 0;
@@ -30,7 +26,6 @@ import Footer from "@/components/Footer.vue";
   margin: 0;
   padding: 0;
 }
-
 *{
   padding-left: 0;
   font-style: normal;
