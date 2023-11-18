@@ -69,7 +69,7 @@
 .namoral
 {
   margin:5px;
-  font-size:14pt;
+  font-size:15pt;
   font-family:"微软雅黑 Light",sans-serif;
 }
 .label

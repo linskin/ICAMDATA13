@@ -68,10 +68,7 @@
 </template>
 <script>
 export default {
-  name: "HomePageNew",
-  components: {
-    ImageSlider
-  }
+  name: "HomePageNew"
 }
 </script>
 <style scoped>

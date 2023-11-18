@@ -17,7 +17,7 @@ import CardSwiper_lanzou from "@/components/CardSwiper_lanzou.vue";
 
 export default {
   name: "Footer",
-  components: {CardSwiper_lanzou, CardSwiper, CardSwiper_gansu, ImageSlider}
+  components: {CardSwiper_lanzou}
 }
 </script>
 

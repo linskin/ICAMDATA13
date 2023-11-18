@@ -51,7 +51,7 @@
 .namoral
 {
   margin:2vh;
-  font-size:14pt;
+  font-size:15pt;
   line-height: 1.25;
 
   font-family:"微软雅黑 Light",sans-serif;
@@ -60,7 +60,6 @@
 {
   margin:0;
   line-height: 1.25;
-
   font-size:18pt;
   font-family:"微软雅黑 Light",sans-serif;
 }
@@ -79,7 +78,8 @@
 
 }
   .label{
-    font-size: 16pt;  line-height: 1.3;
+    font-size: 17pt;
+    line-height: 1.3;
 
 
   }

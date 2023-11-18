@@ -38,11 +38,7 @@
 
 export default {
   name: "GanSu",
-  components: {CardSwiper_nwnu, ImageSlider}
 }
-import { ref } from 'vue'
-
-const currentDate = ref(new Date())
 </script>
 
 <style scoped>

@@ -15,7 +15,6 @@ import Footer from "@/components/Footer.vue";
 
 
 <style>
-
 .header{
   width: 100%;
   margin: 0;

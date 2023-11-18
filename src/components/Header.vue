@@ -10,7 +10,7 @@
   </el-row>
   <el-row>
     <el-col :span="24">
-      <p class="head1">
+      <p>
         <span><img src="../components/icons/img_8.png" alt="alt" style="width: 100%"/></span>
       </p>
     </el-col>
