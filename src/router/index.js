@@ -1,55 +1,38 @@
 import {createRouter, createWebHashHistory} from "vue-router";
 
-import DataTime from "@/view/DataTime.vue";
-import HomePageNew from "@/view/HomePageNew.vue";
-import Accommodation from "@/view/Accommodation.vue";
-import Committees from "@/view/Committees.vue";
-import Registration from "@/view/Registration.vue";
-import Northwest_Normal_University from "@/view/Northwest_Normal_University.vue";
-import Travel_Info from "@/view/Travel_Info.vue";
-import BestPosterAwards from "@/view/BestPosterAwards.vue";
-import IcamdataCollections from "@/view/IcamdataCollections.vue";
-import PosterSession from "@/view/PosterSession.vue";
-import SatelliteMeeting from "@/view/SatelliteMeeting.vue";
-import Schdule from "@/view/Schdule.vue";
-import InvitedSpeakers from "@/view/InvitedSpeakers.vue";
-import Programme from "@/view/Programme.vue";
-import VENUE from "@/view/VENUE.vue";
-
-
 const routes = [
     {
         path: '/',
         name:'ICAMDATA',
         redirect:"/HomePageNew",
         children: [
-            { path: 'VENUE',component: VENUE},
-            { path: 'Programme',component: Programme,},
-            { path: '', component: HomePageNew },
-            { path:'HOME',component: HomePageNew},
-            { path: 'DataTime',component: DataTime},
-            { path: 'Committees',component: Committees},
+            { path: 'VENUE',component: () => import('@/view/VENUE.vue'),},
+            { path: 'Programme',component: () => import('@/view/Programme.vue'),},
+            { path: '', component: () => import('@/view/HomePageNew.vue') },
+            { path:'HOME',component: () => import('@/view/HomePageNew.vue')},
+            { path: 'DataTime',component: () => import('@/view/DataTime.vue')},
+            { path: 'Committees',component: () => import('@/view/Committees.vue')},
             { path: 'Registration',component: () => import('@/view/Registration.vue')},
-            { path: 'InvitedSpeaker',component: InvitedSpeakers}
+            { path: 'InvitedSpeaker',component: () => import('@/view/InvitedSpeakers.vue')},
 
         ],
 
     },
     {path:'/Programme',
         children: [
-            {path: 'Schdule',component: Schdule},
-            {path: 'IcamdataCollections',component: IcamdataCollections},
-            {path: 'SatelliteMeeting',component: SatelliteMeeting},
-            {path: 'BestPosterAwards',component: BestPosterAwards},
-            {path: 'PosterSession',component: PosterSession}
+            {path: 'Schdule',component: () => import('@/view/Schdule.vue')},
+            {path: 'IcamdataCollections',component: () => import('@/view/IcamdataCollections.vue')},
+            {path: 'SatelliteMeeting',component: () => import('@/view/SatelliteMeeting.vue')},
+            {path: 'BestPosterAwards',component: () => import('@/view/BestPosterAwards.vue')},
+            {path: 'PosterSession',component: () => import('@/view/PosterSession.vue')}
 
         ]
     },
     {path: '/VENUE',
         children: [
-            {path: 'Travel_Info',component: Travel_Info},
-            {path: 'Northwest_Normal_University',component: Northwest_Normal_University},
-            {path:'Accommodation',component: Accommodation }
+            {path: 'Travel_Info',component: () => import('@/view/Travel_Info.vue')},
+            {path: 'Northwest_Normal_University',component: () => import('@/view/Northwest_Normal_University.vue')},
+            {path:'Accommodation',component: () => import('@/view/Accommodation.vue') }
         ]
     }
 
