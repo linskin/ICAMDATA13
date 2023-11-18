@@ -29,7 +29,7 @@ const routes = [
             { path:'HOME',component: HomePageNew},
             { path: 'DataTime',component: DataTime},
             { path: 'Committees',component: Committees},
-            { path: 'Registration',component: Registration},
+            { path: 'Registration',component: () => import('@/view/Registration.vue')},
             { path: 'InvitedSpeaker',component: InvitedSpeakers}
 
         ],

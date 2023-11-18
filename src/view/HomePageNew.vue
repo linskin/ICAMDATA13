@@ -3,7 +3,7 @@
   <el-row style="margin-top: 3%;background-color: white ;opacity:0.85;width: inherit; height: fit-content">
     <el-col :span="22" :offset="1">
       <div class=" namoral-board">
-        <p class=Mid  style='line-height: 1.3'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span><span lang=EN-US> The 13th ICAMDATA, hosted by the
+        <p class=normal  style='line-height: 1.3'><span lang=EN-US>The International Conference on Atomic and Molecular Data and Their Applications (ICAMDATA) is a continuing series of international conferences that promotes the use of atomic and molecular (AM) data in various fields of science and technology, providing a forum for interaction of AM data producers and users and for information exchange on AM data needs and availability, and fostering the cross-disciplinary cooperation between the AM data producers and users and the coordination of AM data activities and databases worldwide.</span><span lang=EN-US> The 13th ICAMDATA, hosted by the
           <a href="https://www.nwnu.edu.cn/" target="_blank">NWNU</a>, in the beautiful scenario of the
           <a href="http://lanzhou.gogansu.com/" target="_blank">Lanzhou</a>, is organized in cooperation with the
           <a href="https://www.iaea.org/" target="_blank">International Atomic Energy Agency (IAEA)</a>.
@@ -111,8 +111,9 @@ p.Bold, li.Bold, div.Bold
 p.normal, li.normal, div.normal
 {
   margin:0;
-  font-size:15pt;
-  font-family:"微软雅黑",sans-serif;
+  font-size:16pt;
+  text-align:justify;
+  font-family:"微软雅黑 Light",sans-serif;
 
 }
 
