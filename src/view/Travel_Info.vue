@@ -25,19 +25,27 @@
   <el-row style="background-color: white ;opacity:0.85;margin-top: 3%">
 
   <el-row style="margin-bottom: 3%; margin-top: 3%;">
-    <el-col :span="22" :offset="1" style="background-color: white ;opacity:0.85;">
+    <el-col :span="22" :offset="1" style="background-color: white ;">
       <h2 class="label">How to Reach Lanzhou</h2>
       <br/>
       <p class="namoral">The closest airport is the Lanzhou Zhongchuan International Airport (IATA Code：LHW), located at approximately 56 km Northwest from the Northwest Normal University. The airport is connected by domestic flights to the international airports of Beijing, Shanghai, Xian, Guangzhou and some other cities.</p>
     </el-col>
   </el-row>
 
-  <el-row >
+  <el-row style="margin-bottom: 3%;">
     <el-col :span="22" :offset="1">
       <h2 class="label">From the Airport to Northwest Normal University</h2>
       <br/>
-      <p class="namoral">The local organizing committee will offer FREE shuttle bus to pick you up at the airport from 10 a.m. until 9 p.m. in Sep. 15. The detailed time schedule of the shuttle bus will be updated later. It will depend on the participants’ arriving time.
+      <p class="namoral">The local organizing committee will offer FREE shuttle bus to pick you up at the airport from 10 a.m. until 9 p.m. in Sep. 22, 2024. The detailed time schedule of the shuttle bus will be updated later. It will depend on the participants’ arriving time.
       </p>
+    </el-col>
+  </el-row>
+
+    <el-row >
+    <el-col :span="22" :offset="1">
+      <h2 class="label">From the Railway station to Northwest Normal University</h2>
+      <br/>
+      <p class="namoral">The Lanzhou railway station is located approximately 10 km away from the Northwest Normal University. It takes around 20 minutes to travel from the railway station to the university by taxi.</p>
     </el-col>
   </el-row>
 

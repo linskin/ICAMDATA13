@@ -4,7 +4,7 @@
       <p class="head">
         <span class="textm">ICAMDATA 2024</span><br/>
         <span class="textm1">The 13th International Conference on Atomic and Molecular Data and Their Applications</span><br/>
-        <span class="textm2">Lanzhou，September 22-25, 2024</span>
+        <span class="textm2">September 22-26, 2024 <span lang=EN-US>&nbsp;</span> Lanzhou&bull;China</span>
       </p>
     </el-col>
   </el-row>
@@ -39,9 +39,9 @@
 
         <el-sub-menu class="heads" index="3">
           <template #title><span class="texts">VENUE</span></template>
-          <el-menu-item index="/VENUE/Northwest_Normal_University" ><span class="texts">NORTHWEST NORMAL UNIVERSITY</span></el-menu-item>
-          <el-menu-item ><span class="texts" ><a style="text-decoration: none;width: 100%;color: inherit" href="http://lanzhou.gogansu.com/" target="_blank">Lanzhou</a></span></el-menu-item>
           <el-menu-item index="/VENUE/Accommodation" ><span class="texts">ACCOMMODATION</span></el-menu-item>
+          <el-menu-item ><span class="texts"><a style="text-decoration: none;width: 100%;color: inherit" href="https://www.nwnu.edu.cn/3343/list.htm" target="_blank">NORTHWEST NORMAL UNIVERSITY</a></span></el-menu-item>
+          <el-menu-item ><span class="texts" ><a style="text-decoration: none;width: 100%;color: inherit" href="http://lanzhou.gogansu.com/" target="_blank">Lanzhou</a></span></el-menu-item>
           <el-menu-item index="/VENUE/Travel_Info"><span class="texts">TRAVEL INFO</span></el-menu-item>
         </el-sub-menu>
 
@@ -103,5 +103,12 @@ export default {
   line-height: 1.4;
   font-family: "微软雅黑", sans-serif;
 }
-
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
 </style>
