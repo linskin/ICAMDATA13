@@ -14,6 +14,7 @@ const routes = [
             { path: 'Committees',component: () => import('@/view/Committees.vue')},
             { path: 'Registration',component: () => import('@/view/Registration.vue')},
             { path: 'InvitedSpeaker',component: () => import('@/view/InvitedSpeakers.vue')},
+            { path: 'Rupdate',component:()=>import("@/view/RegistrationUpdate.vue")}
 
         ],
 
