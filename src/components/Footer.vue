@@ -6,7 +6,7 @@
         <CardSwiper_lanzou/>
       </div>
       <div>
-        <img src="../components/icons/20019879902c80429e3c5be22dcc995.png" style="width: 100%;height: 100%;margin-top: 2%" alt=""/>
+        <img class="img_holder" src="../components/icons/20019879902c80429e3c5be22dcc995.png" style="width: 100%;height: 100%;margin-top: 2%" alt=""/>
       </div>
     </el-col>
   </el-row>
@@ -45,6 +45,7 @@ p.Mid, li.Mid, div.Mid
 }
 .img_holder{
   width: 100%;
+  height: 100%;
 }
 
 </style>

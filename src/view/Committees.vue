@@ -2,64 +2,64 @@
 const InterData = [
     {
       date: 'James Babb, US',
-      
+
       name: 'Jelle Kaastra, Netherlands',
 
     },
     {
       date: 'Beatriz Barbuy, Brazil',
-      
+
       name: 'Annarita Laricchiuta, Italy (Past Chair)',
 
     },
     {
       date: 'Jacek Bieroń, Poland',
-      
+
       name: 'Daiji Kato, Japan',
     },
     {
       date: 'Dmitry Fursa, Australia',
-      
+
       name: 'Nobuyuki Nakamura, Japan',
     },
     {
       date: 'Nancy Brickhouse, US ',
-      
+
       name: 'Yong Wu, China',
     },
     {
       date: 'Stuart Loch, US',
-      
+
       name: 'Gerry O\'Sullivan, Ireland',
     },
     {
       date: 'Chenzhong Dong, China (Chair)',
-      
+
       name: 'Juliet Pickering, UK',
     },
     {
       date: 'Zong-Chao Yan, Canada',
-      
+
       name: 'Alexander Kramida, US',
     },
     {
       date: 'Andrey Surzhykov, Germany',
-      
+
       name: 'Iouli Gordon, US',
     },
     {
       date: 'Mi-Young Song, Korea',
-      
+
       name: 'Christian Hill, IAEA',
     },
     {
       date: 'Inga Tolstikhina, Russia',
-      
+
       name: 'Valdas Jonauskas, Lithuania',
     },
     {
       date: 'Duck-Hee Kwon, Korea',
-      
+
       name: '',
     },
     ]
@@ -144,7 +144,7 @@ const LocalData =[
   color: black;
 }
 .Mid{
-  margin:0;
+  margin-top:3vh;
   font-size:14pt;
   line-height: 1;
   color: black;
