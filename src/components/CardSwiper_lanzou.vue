@@ -9,17 +9,17 @@
       :modules="modules"
       class="mySwiper"
   >
-    <swiper-slide class="back"><img src="../components/icons/001.png"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/002.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/003.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/004.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/005.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/006.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/007.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/008.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/009.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/010.jpg"/></swiper-slide>
-    <swiper-slide class="back"><img src="../components/icons/011.jpg"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/001.png" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/002.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/003.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/004.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/005.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/006.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/007.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/008.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/009.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/010.jpg" alt="" class="back"/></swiper-slide>
+    <swiper-slide><img src="../components/icons/011.jpg" alt="" class="back"/></swiper-slide>
   </swiper>
 </template>
 <script>
@@ -52,7 +52,8 @@ export default {
 </script>
 <style scoped>
 .back{
-  background-color: rgba(72, 71, 71, 0.07);
+  width: 100%;
+  height: 100%;
 }
 .mySwiper{
   height: 27vh;
